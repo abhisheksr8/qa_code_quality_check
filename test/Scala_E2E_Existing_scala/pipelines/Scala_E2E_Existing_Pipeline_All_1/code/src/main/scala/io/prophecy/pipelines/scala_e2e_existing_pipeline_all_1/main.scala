@@ -79,24 +79,16 @@ object Main {
       .config("spark.sql.legacy.allowUntypedScalaUDF", "true")
       .enableHiveSupport()
       .getOrCreate()
-      .newSession()
     val context = Context(spark, config)
     spark.conf.set("prophecy.metadata.pipeline.uri",
                    "pipelines/Scala_E2E_Existing_Pipeline_All_1"
     )
     registerUDFs(spark)
-    try MetricsCollector.start(spark,
-                               "pipelines/Scala_E2E_Existing_Pipeline_All_1",
-                               context.config
-    )
-    catch {
-      case _: Throwable =>
-        MetricsCollector.start(spark,
-                               "pipelines/Scala_E2E_Existing_Pipeline_All_1"
-        )
+    MetricsCollector.instrument(spark,
+                                "pipelines/Scala_E2E_Existing_Pipeline_All_1"
+    ) {
+      apply(context)
     }
-    apply(context)
-    MetricsCollector.end(spark)
   }
 
 }
