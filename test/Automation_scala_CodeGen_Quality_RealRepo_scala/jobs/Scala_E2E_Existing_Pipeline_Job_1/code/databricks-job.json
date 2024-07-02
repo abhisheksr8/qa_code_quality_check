@@ -27,9 +27,12 @@
         "spark_version" : "13.3.x-scala2.12",
         "node_type_id" : "i3.xlarge",
         "num_workers" : 1,
-        "custom_tags" : { },
+        "custom_tags" : {
+          "test_aws_access_key_password" : "passwordAKIATESTPass"
+        },
         "init_scripts" : [ ],
         "spark_conf" : {
+          "spark.password" : "testAKIApassword",
           "spark.prophecy.metadata.fabric.id" : "1",
           "spark.prophecy.metadata.job.uri" : "__PROJECT_ID_PLACEHOLDER__/jobs/Scala_E2E_Existing_Pipeline_Job_1",
           "spark.prophecy.metadata.is.interactive.run" : "false",
@@ -43,7 +46,8 @@
           "spark.databricks.isv.product" : "prophecy"
         },
         "spark_env_vars" : {
-          "PYSPARK_PYTHON" : "/databricks/python3/bin/python3"
+          "PYSPARK_PYTHON" : "/databricks/python3/bin/python3",
+          "PASSWORD_ENV_VARIABLE" : "AKISTESTpassword"
         },
         "runtime_engine" : "STANDARD",
         "aws_attributes" : {
@@ -65,11 +69,7 @@
       },
       "libraries" : [ {
         "maven" : {
-          "coordinates" : "io.prophecy:prophecy-libs_2.12:3.4.0-7.1.85"
-        }
-      }, {
-        "pypi" : {
-          "package" : "prophecy-libs==1.8.15"
+          "coordinates" : "io.prophecy:prophecy-libs_2.12:3.4.0-8.0.21"
         }
       }, {
         "jar" : "dbfs:/FileStore/prophecy/artifacts/perftest/cp/__PROJECT_ID_PLACEHOLDER__/__PROJECT_RELEASE_VERSION_PLACEHOLDER__/pipeline/Scala_E2E_Existing_Pipeline_All_1.jar"
@@ -88,11 +88,7 @@
       },
       "libraries" : [ {
         "maven" : {
-          "coordinates" : "io.prophecy:prophecy-libs_2.12:3.4.0-7.1.85"
-        }
-      }, {
-        "pypi" : {
-          "package" : "prophecy-libs==1.8.15"
+          "coordinates" : "io.prophecy:prophecy-libs_2.12:3.4.0-8.0.21"
         }
       }, {
         "jar" : "dbfs:/FileStore/prophecy/artifacts/perftest/cp/__PROJECT_ID_PLACEHOLDER__/__PROJECT_RELEASE_VERSION_PLACEHOLDER__/pipeline/Scala_E2E_Existing_Pipeline_All_2.jar"
