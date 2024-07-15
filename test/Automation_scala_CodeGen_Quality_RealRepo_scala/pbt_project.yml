@@ -44,6 +44,19 @@ pipelines:
     subgraphs:
     - subgraphs/scalaSG
     dependencies: {}
+  pipelines/dummy1721070892641:
+    name: dummy1721070892641
+    description: automation workflow
+    author: abhisheks+e2etests@prophecy.io
+    mode: batch
+    artefactID: ''
+    language: scala
+    createdAt: '2024-07-15 19:15:15'
+    datasets:
+      inputs: []
+      outputs: []
+    subgraphs: []
+    dependencies: {}
 datasets:
   datasets/dataset_cust_in:
     name: dataset_cust_in
@@ -136,6 +149,7 @@ jobs:
     enabled: true
     createdAt: '2023-10-01 06:56:42'
     author: abhisheks@prophecy.io
+    models: []
   jobs/Scala_E2E_Existing_Pipeline_Job_2:
     name: Scala_E2E_Existing_Pipeline_Job_2
     description: ''
@@ -161,6 +175,7 @@ jobs:
     enabled: true
     createdAt: '2023-10-03 05:38:54'
     author: abhisheks@prophecy.io
+    models: []
 gemContainer:
   languageVersion: 2.12.15
   gemLibsVersion: 1.0.4
@@ -197,6 +212,7 @@ functions:
   udafs: {}
   expressions: {}
   airflowFunctions: {}
+  businessRules: {}
 subgraphs:
   subgraphs/scalaSG:
     name: scalaSG
@@ -207,6 +223,8 @@ subgraphs:
     mode: batch
     createdAt: '2023-10-01 06:44:03'
 sqlModels: {}
+sqlSnapshots: {}
+sqlTests: {}
 sqlMacros: {}
 sqlSeeds: {}
 sqlSources: {}
@@ -214,36 +232,43 @@ sqlUnreferencedSources: {}
 sqlPipeline: null
 dependencies:
 - type: plibMaven
-  modifiedAt: '2024-04-05T06:25:47.525408Z'
-  name: plibMaven
-  version: 7.1.85
+  modifiedAt: '2024-07-15T19:07:52.179Z'
+  name: ProphecyLibsScala
+  version: 8.0.28
   id: '572432883'
   createdAt: '2024-04-05T06:25:47.525233Z'
+  enabled: true
+  entity: Project
+  description: Default dependency for Prophecy Libs
+  scope: Project
+  exclusions: []
+  editable: true
+  __path: '[0]'
 projectDependencies:
   '4':
     projectUID: 4
     projectName: ProphecyWarehouseScala
     repositoryPath: gitUri=http://gitserver:3000/P4JOEwcf_team_5/P4JOEwcf_project_4.git&subPath=
-    version: 0.0.3
+    version: 0.0.5
     isDefault: true
     author: null
-    createdAt: '2023-10-01 06:35:43'
+    createdAt: '2024-07-15 19:10:13'
   '3':
     projectUID: 3
     projectName: ProphecySparkBasicsScala
     repositoryPath: gitUri=http://gitserver:3000/P4JOEwcf_team_5/P4JOEwcf_project_3.git&subPath=
-    version: 0.1.1
+    version: 0.2.5.1
     isDefault: true
     author: null
-    createdAt: '2024-02-22 12:16:10'
+    createdAt: '2024-07-15 19:09:39'
   '1211':
     projectUID: 1211
     projectName: ProphecySparkAbinitioScala
     repositoryPath: gitUri=http://gitserver:3000/P4JOEwcf_team_5/Q91oQKs8_project_1211.git&subPath=
-    version: 0.0.17
+    version: 0.0.21
     isDefault: false
     author: null
-    createdAt: '2024-02-22 12:16:25'
+    createdAt: '2024-07-15 19:10:50'
 flags:
   shouldAddDefaultDependenciesIfAbsent: true
 pipelineConfigurations: {}

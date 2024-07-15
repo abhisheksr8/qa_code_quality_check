@@ -450,10 +450,10 @@
         "language" : "scala"
       },
       "componentInfo" : {
-        "gemId" : "gitUri=http://gitserver:3000/P4JOEwcf_team_5/P4JOEwcf_project_3.git&subPath=&tag=0.1.1&projectSubscriptionProjectId=3&path=gems/Filter",
+        "gemId" : "gitUri=http://gitserver:3000/P4JOEwcf_team_5/P4JOEwcf_project_3.git&subPath=&tag=0.2.5.1&projectSubscriptionProjectId=3&path=gems/Filter",
         "projectId" : "3",
         "projectName" : "ProphecySparkBasicsScala",
-        "version" : "0.1.1"
+        "version" : "0.2.5.1"
       }
     },
     "fH3qrCAz1gUq_xWW_DlmC" : {
@@ -829,10 +829,10 @@
         "language" : "scala"
       },
       "componentInfo" : {
-        "gemId" : "gitUri=http://gitserver:3000/P4JOEwcf_team_5/P4JOEwcf_project_3.git&subPath=&tag=0.1.1&projectSubscriptionProjectId=3&path=gems/OrderBy",
+        "gemId" : "gitUri=http://gitserver:3000/P4JOEwcf_team_5/P4JOEwcf_project_3.git&subPath=&tag=0.2.5.1&projectSubscriptionProjectId=3&path=gems/OrderBy",
         "projectId" : "3",
         "projectName" : "ProphecySparkBasicsScala",
-        "version" : "0.1.1"
+        "version" : "0.2.5.1"
       }
     },
     "1AShx15VLyt7U9EFszDS6" : {
@@ -1182,10 +1182,10 @@
             "language" : "scala"
           },
           "componentInfo" : {
-            "gemId" : "gitUri=http://gitserver:3000/P4JOEwcf_team_5/P4JOEwcf_project_3.git&subPath=&tag=0.1.1&projectSubscriptionProjectId=3&path=gems/RowDistributor",
+            "gemId" : "gitUri=http://gitserver:3000/P4JOEwcf_team_5/P4JOEwcf_project_3.git&subPath=&tag=0.2.5.1&projectSubscriptionProjectId=3&path=gems/RowDistributor",
             "projectId" : "3",
             "projectName" : "ProphecySparkBasicsScala",
-            "version" : "0.1.1"
+            "version" : "0.2.5.1"
           }
         }
       }

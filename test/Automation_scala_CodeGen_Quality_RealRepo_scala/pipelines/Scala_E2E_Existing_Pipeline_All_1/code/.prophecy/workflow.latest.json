@@ -3,10 +3,11 @@
     "migrationVersions" : {
       "gemBuilderVersion" : "v1"
     },
+    "functions" : { },
     "codeGenConfiguration" : {
       "editableConfig" : false,
       "plibVersion" : {
-        "mavenVersion" : "7.1.85"
+        "mavenVersion" : "8.0.28"
       }
     },
     "id" : "1",
@@ -589,7 +590,7 @@
         } ]
       },
       "componentInfo" : {
-        "gemId" : "gitUri=http://gitserver:3000/P4JOEwcf_team_5/P4JOEwcf_project_3.git&subPath=&tag=0.1.1&projectSubscriptionProjectId=3&path=gems/RowDistributor",
+        "gemId" : "gitUri=http://gitserver:3000/P4JOEwcf_team_5/P4JOEwcf_project_3.git&subPath=&tag=0.2.5.1&projectSubscriptionProjectId=3&path=gems/RowDistributor",
         "projectName" : "ProphecySparkBasicsScala"
       }
     },
@@ -736,7 +737,7 @@
         "limit" : "20"
       },
       "componentInfo" : {
-        "gemId" : "gitUri=http://gitserver:3000/P4JOEwcf_team_5/P4JOEwcf_project_3.git&subPath=&tag=0.1.1&projectSubscriptionProjectId=3&path=gems/Limit",
+        "gemId" : "gitUri=http://gitserver:3000/P4JOEwcf_team_5/P4JOEwcf_project_3.git&subPath=&tag=0.2.5.1&projectSubscriptionProjectId=3&path=gems/Limit",
         "projectName" : "ProphecySparkBasicsScala"
       }
     },
@@ -904,7 +905,7 @@
         } ]
       },
       "componentInfo" : {
-        "gemId" : "gitUri=http://gitserver:3000/P4JOEwcf_team_5/P4JOEwcf_project_3.git&subPath=&tag=0.1.1&projectSubscriptionProjectId=3&path=gems/Reformat",
+        "gemId" : "gitUri=http://gitserver:3000/P4JOEwcf_team_5/P4JOEwcf_project_3.git&subPath=&tag=0.2.5.1&projectSubscriptionProjectId=3&path=gems/Reformat",
         "projectName" : "ProphecySparkBasicsScala"
       }
     },
@@ -1092,7 +1093,7 @@
         } ]
       },
       "componentInfo" : {
-        "gemId" : "gitUri=http://gitserver:3000/P4JOEwcf_team_5/P4JOEwcf_project_3.git&subPath=&tag=0.1.1&projectSubscriptionProjectId=3&path=gems/Aggregate",
+        "gemId" : "gitUri=http://gitserver:3000/P4JOEwcf_team_5/P4JOEwcf_project_3.git&subPath=&tag=0.2.5.1&projectSubscriptionProjectId=3&path=gems/Aggregate",
         "projectName" : "ProphecySparkBasicsScala"
       }
     },
@@ -1205,7 +1206,7 @@
         "expressions" : [ ]
       },
       "componentInfo" : {
-        "gemId" : "gitUri=http://gitserver:3000/P4JOEwcf_team_5/P4JOEwcf_project_3.git&subPath=&tag=0.1.1&projectSubscriptionProjectId=3&path=gems/Reformat",
+        "gemId" : "gitUri=http://gitserver:3000/P4JOEwcf_team_5/P4JOEwcf_project_3.git&subPath=&tag=0.2.5.1&projectSubscriptionProjectId=3&path=gems/Reformat",
         "projectName" : "ProphecySparkBasicsScala"
       }
     },
@@ -1318,7 +1319,7 @@
         "expressions" : [ ]
       },
       "componentInfo" : {
-        "gemId" : "gitUri=http://gitserver:3000/P4JOEwcf_team_5/P4JOEwcf_project_3.git&subPath=&tag=0.1.1&projectSubscriptionProjectId=3&path=gems/Reformat",
+        "gemId" : "gitUri=http://gitserver:3000/P4JOEwcf_team_5/P4JOEwcf_project_3.git&subPath=&tag=0.2.5.1&projectSubscriptionProjectId=3&path=gems/Reformat",
         "projectName" : "ProphecySparkBasicsScala"
       }
     },
@@ -1654,7 +1655,7 @@
         } ]
       },
       "componentInfo" : {
-        "gemId" : "gitUri=http://gitserver:3000/P4JOEwcf_team_5/P4JOEwcf_project_3.git&subPath=&tag=0.1.1&projectSubscriptionProjectId=3&path=gems/OrderBy",
+        "gemId" : "gitUri=http://gitserver:3000/P4JOEwcf_team_5/P4JOEwcf_project_3.git&subPath=&tag=0.2.5.1&projectSubscriptionProjectId=3&path=gems/OrderBy",
         "projectName" : "ProphecySparkBasicsScala"
       }
     },
@@ -1849,7 +1850,7 @@
         "userSpecifiedStart" : null
       },
       "componentInfo" : {
-        "gemId" : "gitUri=http://gitserver:3000/P4JOEwcf_team_5/P4JOEwcf_project_3.git&subPath=&tag=0.1.1&projectSubscriptionProjectId=3&path=gems/WindowFunction",
+        "gemId" : "gitUri=http://gitserver:3000/P4JOEwcf_team_5/P4JOEwcf_project_3.git&subPath=&tag=0.2.5.1&projectSubscriptionProjectId=3&path=gems/WindowFunction",
         "projectName" : "ProphecySparkBasicsScala"
       }
     },
@@ -2000,7 +2001,7 @@
         }
       },
       "componentInfo" : {
-        "gemId" : "gitUri=http://gitserver:3000/P4JOEwcf_team_5/P4JOEwcf_project_3.git&subPath=&tag=0.1.1&projectSubscriptionProjectId=3&path=gems/Filter",
+        "gemId" : "gitUri=http://gitserver:3000/P4JOEwcf_team_5/P4JOEwcf_project_3.git&subPath=&tag=0.2.5.1&projectSubscriptionProjectId=3&path=gems/Filter",
         "projectName" : "ProphecySparkBasicsScala"
       }
     },
@@ -2258,7 +2259,7 @@
             }
           },
           "componentInfo" : {
-            "gemId" : "gitUri=http://gitserver:3000/P4JOEwcf_team_5/P4JOEwcf_project_3.git&subPath=&tag=0.1.1&projectSubscriptionProjectId=3&path=gems/Filter",
+            "gemId" : "gitUri=http://gitserver:3000/P4JOEwcf_team_5/P4JOEwcf_project_3.git&subPath=&tag=0.2.5.1&projectSubscriptionProjectId=3&path=gems/Filter",
             "projectName" : "ProphecySparkBasicsScala"
           }
         },
@@ -2376,7 +2377,7 @@
             } ]
           },
           "componentInfo" : {
-            "gemId" : "gitUri=http://gitserver:3000/P4JOEwcf_team_5/P4JOEwcf_project_3.git&subPath=&tag=0.1.1&projectSubscriptionProjectId=3&path=gems/OrderBy",
+            "gemId" : "gitUri=http://gitserver:3000/P4JOEwcf_team_5/P4JOEwcf_project_3.git&subPath=&tag=0.2.5.1&projectSubscriptionProjectId=3&path=gems/OrderBy",
             "projectName" : "ProphecySparkBasicsScala"
           }
         },
@@ -2631,7 +2632,7 @@
                 } ]
               },
               "componentInfo" : {
-                "gemId" : "gitUri=http://gitserver:3000/P4JOEwcf_team_5/P4JOEwcf_project_3.git&subPath=&tag=0.1.1&projectSubscriptionProjectId=3&path=gems/RowDistributor",
+                "gemId" : "gitUri=http://gitserver:3000/P4JOEwcf_team_5/P4JOEwcf_project_3.git&subPath=&tag=0.2.5.1&projectSubscriptionProjectId=3&path=gems/RowDistributor",
                 "projectName" : "ProphecySparkBasicsScala"
               }
             }
@@ -2850,7 +2851,7 @@
         "inputPortNames" : [ "in0" ]
       },
       "componentInfo" : {
-        "gemId" : "gitUri=http://gitserver:3000/P4JOEwcf_team_5/P4JOEwcf_project_3.git&subPath=&tag=0.1.1&projectSubscriptionProjectId=3&path=gems/SQLStatement",
+        "gemId" : "gitUri=http://gitserver:3000/P4JOEwcf_team_5/P4JOEwcf_project_3.git&subPath=&tag=0.2.5.1&projectSubscriptionProjectId=3&path=gems/SQLStatement",
         "projectName" : "ProphecySparkBasicsScala"
       }
     },
@@ -3039,7 +3040,7 @@
         } ]
       },
       "componentInfo" : {
-        "gemId" : "gitUri=http://gitserver:3000/P4JOEwcf_team_5/P4JOEwcf_project_3.git&subPath=&tag=0.1.1&projectSubscriptionProjectId=3&path=gems/Reformat",
+        "gemId" : "gitUri=http://gitserver:3000/P4JOEwcf_team_5/P4JOEwcf_project_3.git&subPath=&tag=0.2.5.1&projectSubscriptionProjectId=3&path=gems/Reformat",
         "projectName" : "ProphecySparkBasicsScala"
       }
     },
@@ -3241,7 +3242,7 @@
         "expressions" : [ ]
       },
       "componentInfo" : {
-        "gemId" : "gitUri=http://gitserver:3000/P4JOEwcf_team_5/P4JOEwcf_project_3.git&subPath=&tag=0.1.1&projectSubscriptionProjectId=3&path=gems/Reformat",
+        "gemId" : "gitUri=http://gitserver:3000/P4JOEwcf_team_5/P4JOEwcf_project_3.git&subPath=&tag=0.2.5.1&projectSubscriptionProjectId=3&path=gems/Reformat",
         "projectName" : "ProphecySparkBasicsScala"
       }
     },
@@ -3721,7 +3722,7 @@
         "delimiter" : "-"
       },
       "componentInfo" : {
-        "gemId" : "gitUri=http://gitserver:3000/P4JOEwcf_team_5/P4JOEwcf_project_3.git&subPath=&tag=0.1.1&projectSubscriptionProjectId=3&path=gems/FlattenSchema",
+        "gemId" : "gitUri=http://gitserver:3000/P4JOEwcf_team_5/P4JOEwcf_project_3.git&subPath=&tag=0.2.5.1&projectSubscriptionProjectId=3&path=gems/FlattenSchema",
         "projectName" : "ProphecySparkBasicsScala"
       }
     },
@@ -3838,7 +3839,7 @@
         "useOrderBy" : false
       },
       "componentInfo" : {
-        "gemId" : "gitUri=http://gitserver:3000/P4JOEwcf_team_5/P4JOEwcf_project_3.git&subPath=&tag=0.1.1&projectSubscriptionProjectId=3&path=gems/Deduplicate",
+        "gemId" : "gitUri=http://gitserver:3000/P4JOEwcf_team_5/P4JOEwcf_project_3.git&subPath=&tag=0.2.5.1&projectSubscriptionProjectId=3&path=gems/Deduplicate",
         "projectName" : "ProphecySparkBasicsScala"
       }
     },
@@ -4045,7 +4046,7 @@
         "nPartitions" : "10"
       },
       "componentInfo" : {
-        "gemId" : "gitUri=http://gitserver:3000/P4JOEwcf_team_5/P4JOEwcf_project_3.git&subPath=&tag=0.1.1&projectSubscriptionProjectId=3&path=gems/Repartition",
+        "gemId" : "gitUri=http://gitserver:3000/P4JOEwcf_team_5/P4JOEwcf_project_3.git&subPath=&tag=0.2.5.1&projectSubscriptionProjectId=3&path=gems/Repartition",
         "projectName" : "ProphecySparkBasicsScala"
       }
     },
@@ -4238,7 +4239,7 @@
         "allowMissingColumns" : false
       },
       "componentInfo" : {
-        "gemId" : "gitUri=http://gitserver:3000/P4JOEwcf_team_5/P4JOEwcf_project_3.git&subPath=&tag=0.1.1&projectSubscriptionProjectId=3&path=gems/SetOperation",
+        "gemId" : "gitUri=http://gitserver:3000/P4JOEwcf_team_5/P4JOEwcf_project_3.git&subPath=&tag=0.2.5.1&projectSubscriptionProjectId=3&path=gems/SetOperation",
         "projectName" : "ProphecySparkBasicsScala"
       }
     },
@@ -4944,7 +4945,7 @@
         "headAlias" : "in0"
       },
       "componentInfo" : {
-        "gemId" : "gitUri=http://gitserver:3000/P4JOEwcf_team_5/P4JOEwcf_project_3.git&subPath=&tag=0.1.1&projectSubscriptionProjectId=3&path=gems/Join",
+        "gemId" : "gitUri=http://gitserver:3000/P4JOEwcf_team_5/P4JOEwcf_project_3.git&subPath=&tag=0.2.5.1&projectSubscriptionProjectId=3&path=gems/Join",
         "projectName" : "ProphecySparkBasicsScala"
       }
     },
@@ -5054,26 +5055,40 @@
       "properties" : {
         "columnsSelector" : [ "N6ewGVi7z8aYlVohDGeIw$$4bXouc1ObpZVqoEZrVh-l##first_name", "N6ewGVi7z8aYlVohDGeIw$$4bXouc1ObpZVqoEZrVh-l##last_name", "N6ewGVi7z8aYlVohDGeIw$$4bXouc1ObpZVqoEZrVh-l##account_flags", "N6ewGVi7z8aYlVohDGeIw$$4bXouc1ObpZVqoEZrVh-l##phone" ],
         "transformations" : [ {
+          "AddRule" : {
+            "expression" : {
+              "format" : "scala",
+              "expression" : ""
+            },
+            "paramErrors" : [ ]
+          },
+          "DropColumn" : {
+            "sourceColumn" : ""
+          },
           "kind" : "AddReplaceColumn",
+          "RenameColumn" : {
+            "sourceColumn" : "",
+            "targetColumn" : ""
+          },
           "AddReplaceColumn" : {
             "sourceColumn" : "c_new1",
             "expression" : {
               "format" : "sql",
               "expression" : "concat(first_name, last_name)"
             }
-          },
-          "DropColumn" : {
-            "sourceColumn" : ""
-          },
-          "RenameColumn" : {
-            "sourceColumn" : "",
-            "targetColumn" : ""
           }
         }, {
-          "kind" : "DropColumn",
+          "AddRule" : {
+            "expression" : {
+              "format" : "scala",
+              "expression" : ""
+            },
+            "paramErrors" : [ ]
+          },
           "DropColumn" : {
             "sourceColumn" : "account_flags"
           },
+          "kind" : "DropColumn",
           "RenameColumn" : {
             "sourceColumn" : "",
             "targetColumn" : ""
@@ -5086,14 +5101,21 @@
             }
           }
         }, {
+          "AddRule" : {
+            "expression" : {
+              "format" : "scala",
+              "expression" : ""
+            },
+            "paramErrors" : [ ]
+          },
+          "DropColumn" : {
+            "sourceColumn" : ""
+          },
           "kind" : "RenameColumn",
           "RenameColumn" : {
             "sourceColumn" : "phone",
             "targetColumn" : "phone_new"
           },
-          "DropColumn" : {
-            "sourceColumn" : ""
-          },
           "AddReplaceColumn" : {
             "sourceColumn" : "",
             "expression" : {
@@ -5102,25 +5124,32 @@
             }
           }
         }, {
+          "AddRule" : {
+            "expression" : {
+              "format" : "scala",
+              "expression" : ""
+            },
+            "paramErrors" : [ ]
+          },
+          "DropColumn" : {
+            "sourceColumn" : ""
+          },
           "kind" : "AddReplaceColumn",
+          "RenameColumn" : {
+            "sourceColumn" : "",
+            "targetColumn" : ""
+          },
           "AddReplaceColumn" : {
             "sourceColumn" : "c_new2",
             "expression" : {
               "format" : "sql",
               "expression" : "concat(first_name, last_name)"
             }
-          },
-          "DropColumn" : {
-            "sourceColumn" : ""
-          },
-          "RenameColumn" : {
-            "sourceColumn" : "",
-            "targetColumn" : ""
           }
         } ]
       },
       "componentInfo" : {
-        "gemId" : "gitUri=http://gitserver:3000/P4JOEwcf_team_5/P4JOEwcf_project_3.git&subPath=&tag=0.1.1&projectSubscriptionProjectId=3&path=gems/SchemaTransform",
+        "gemId" : "gitUri=http://gitserver:3000/P4JOEwcf_team_5/P4JOEwcf_project_3.git&subPath=&tag=0.2.5.1&projectSubscriptionProjectId=3&path=gems/SchemaTransform",
         "projectName" : "ProphecySparkBasicsScala"
       }
     },
@@ -5447,7 +5476,7 @@
         "mismatchExampleRight" : "mismatch_example_right"
       },
       "componentInfo" : {
-        "gemId" : "gitUri=http://gitserver:3000/P4JOEwcf_team_5/P4JOEwcf_project_3.git&subPath=&tag=0.1.1&projectSubscriptionProjectId=3&path=gems/CompareColumns",
+        "gemId" : "gitUri=http://gitserver:3000/P4JOEwcf_team_5/P4JOEwcf_project_3.git&subPath=&tag=0.2.5.1&projectSubscriptionProjectId=3&path=gems/CompareColumns",
         "projectName" : "ProphecySparkBasicsScala"
       }
     },
@@ -5564,7 +5593,7 @@
         "useOrderBy" : false
       },
       "componentInfo" : {
-        "gemId" : "gitUri=http://gitserver:3000/P4JOEwcf_team_5/P4JOEwcf_project_3.git&subPath=&tag=0.1.1&projectSubscriptionProjectId=3&path=gems/Deduplicate",
+        "gemId" : "gitUri=http://gitserver:3000/P4JOEwcf_team_5/P4JOEwcf_project_3.git&subPath=&tag=0.2.5.1&projectSubscriptionProjectId=3&path=gems/Deduplicate",
         "projectName" : "ProphecySparkBasicsScala"
       }
     },
@@ -5675,7 +5704,7 @@
         "limit" : "10"
       },
       "componentInfo" : {
-        "gemId" : "gitUri=http://gitserver:3000/P4JOEwcf_team_5/P4JOEwcf_project_3.git&subPath=&tag=0.1.1&projectSubscriptionProjectId=3&path=gems/Limit",
+        "gemId" : "gitUri=http://gitserver:3000/P4JOEwcf_team_5/P4JOEwcf_project_3.git&subPath=&tag=0.2.5.1&projectSubscriptionProjectId=3&path=gems/Limit",
         "projectName" : "ProphecySparkBasicsScala"
       }
     },
@@ -5933,7 +5962,7 @@
             }
           },
           "componentInfo" : {
-            "gemId" : "gitUri=http://gitserver:3000/P4JOEwcf_team_5/P4JOEwcf_project_3.git&subPath=&tag=0.1.1&projectSubscriptionProjectId=3&path=gems/Filter",
+            "gemId" : "gitUri=http://gitserver:3000/P4JOEwcf_team_5/P4JOEwcf_project_3.git&subPath=&tag=0.2.5.1&projectSubscriptionProjectId=3&path=gems/Filter",
             "projectName" : "ProphecySparkBasicsScala"
           }
         },
@@ -6051,7 +6080,7 @@
             } ]
           },
           "componentInfo" : {
-            "gemId" : "gitUri=http://gitserver:3000/P4JOEwcf_team_5/P4JOEwcf_project_3.git&subPath=&tag=0.1.1&projectSubscriptionProjectId=3&path=gems/OrderBy",
+            "gemId" : "gitUri=http://gitserver:3000/P4JOEwcf_team_5/P4JOEwcf_project_3.git&subPath=&tag=0.2.5.1&projectSubscriptionProjectId=3&path=gems/OrderBy",
             "projectName" : "ProphecySparkBasicsScala"
           }
         },
@@ -6306,7 +6335,7 @@
                 } ]
               },
               "componentInfo" : {
-                "gemId" : "gitUri=http://gitserver:3000/P4JOEwcf_team_5/P4JOEwcf_project_3.git&subPath=&tag=0.1.1&projectSubscriptionProjectId=3&path=gems/RowDistributor",
+                "gemId" : "gitUri=http://gitserver:3000/P4JOEwcf_team_5/P4JOEwcf_project_3.git&subPath=&tag=0.2.5.1&projectSubscriptionProjectId=3&path=gems/RowDistributor",
                 "projectName" : "ProphecySparkBasicsScala"
               }
             }

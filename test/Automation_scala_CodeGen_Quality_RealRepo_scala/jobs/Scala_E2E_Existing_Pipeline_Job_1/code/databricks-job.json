@@ -23,13 +23,16 @@
     "job_clusters" : [ {
       "job_cluster_key" : "Scala_E2E_Existing_Pipeline_Job_1_default_small",
       "new_cluster" : {
-        "ssh_public_keys" : [ ],
-        "spark_version" : "13.3.x-scala2.12",
+        "ssh_public_keys" : [ "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCxlAktr6cYjM59lGOGP2+Inn7cqnzUqjwlrZK7zTpyQaavOnJYSk9Llr95v0yQE1ybCQA7FPnMVDlRh50iT0SSwbYpLe0bbNFAY8Fu6OtCJtCFKsEzLMSQoAAu3F5gPCGBpzMvtENUu7mMyIjOx1040pY6F7gGJc7Y2Ek67YkIqta41uzHwZMZYs7noN/2JyzvpIIJ/PJZzN78yfj9DFWPYRelcxQItiFKPN2UBuEgp178vtm1LdDzO+Sng21jxb/RbxlXmPMnNnPKCgaEETyXH0yOw2pg6iapDlfnO2xb92XT4FpnqnH+fUnTTUu7YtVGWTQvMZap1VPElf3tKWJAbYjraopMKAtRHvKI9sqgSK969SASXE2B+uZMz/FMEFICHaEjIYWT4zHmckXvlFyRc/UGoRrKGZG0Edn4L/fRQFgHL4v0pxFoibAcuMr0fI+XqLiGsTpj+mlZLDUahnQEweiW/XzOAcjrYp17WcpbfPOsugwXvm15Mholf1WLHrk= abhisheks@simpledatalabs.com" ],
+        "spark_version" : "14.3.x-scala2.12",
         "node_type_id" : "i3.xlarge",
         "num_workers" : 1,
-        "custom_tags" : { },
+        "custom_tags" : {
+          "tag_main" : "Prophecy@123_Testvalue"
+        },
         "init_scripts" : [ ],
         "spark_conf" : {
+          "spark.andom_spark_config_variable" : "Prophecy@123_Testvalue",
           "spark.prophecy.metadata.fabric.id" : "1",
           "spark.prophecy.metadata.job.uri" : "__PROJECT_ID_PLACEHOLDER__/jobs/Scala_E2E_Existing_Pipeline_Job_1",
           "spark.prophecy.metadata.is.interactive.run" : "false",
@@ -43,7 +46,8 @@
           "spark.databricks.isv.product" : "prophecy"
         },
         "spark_env_vars" : {
-          "PYSPARK_PYTHON" : "/databricks/python3/bin/python3"
+          "PYSPARK_PYTHON" : "/databricks/python3/bin/python3",
+          "ENV_VARIABLE" : "Prophecy@123_Testvalue"
         },
         "runtime_engine" : "STANDARD",
         "aws_attributes" : {
@@ -65,11 +69,7 @@
       },
       "libraries" : [ {
         "maven" : {
-          "coordinates" : "io.prophecy:prophecy-libs_2.12:3.4.0-7.1.85"
-        }
-      }, {
-        "pypi" : {
-          "package" : "prophecy-libs==1.8.15"
+          "coordinates" : "io.prophecy:prophecy-libs_2.12:3.5.0-8.0.28"
         }
       }, {
         "jar" : "dbfs:/FileStore/prophecy/artifacts/perftest/cp/__PROJECT_ID_PLACEHOLDER__/__PROJECT_RELEASE_VERSION_PLACEHOLDER__/pipeline/Scala_E2E_Existing_Pipeline_All_1.jar"
@@ -88,11 +88,7 @@
       },
       "libraries" : [ {
         "maven" : {
-          "coordinates" : "io.prophecy:prophecy-libs_2.12:3.4.0-7.1.85"
-        }
-      }, {
-        "pypi" : {
-          "package" : "prophecy-libs==1.8.15"
+          "coordinates" : "io.prophecy:prophecy-libs_2.12:3.5.0-8.0.28"
         }
       }, {
         "jar" : "dbfs:/FileStore/prophecy/artifacts/perftest/cp/__PROJECT_ID_PLACEHOLDER__/__PROJECT_RELEASE_VERSION_PLACEHOLDER__/pipeline/Scala_E2E_Existing_Pipeline_All_2.jar"

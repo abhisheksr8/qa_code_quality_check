@@ -14,9 +14,10 @@ import java.time._
 object SQLStatement_1 {
 
   def apply(context: Context, in0: DataFrame): (DataFrame, DataFrame) = {
+    val spark = context.spark
     in0.createOrReplaceTempView("in0")
-    (context.spark.sql("select * from in0 where C_BIRTH_YEAR!=22"),
-     context.spark.sql("select * from in0 where C_CUSTOMER_SK!=22")
+    (spark.sql("select * from in0 where C_BIRTH_YEAR!=22"),
+     spark.sql("select * from in0 where C_CUSTOMER_SK!=22")
     )
   }
 
