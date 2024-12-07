@@ -1,4 +1,4 @@
-package io.prophecy.pipelines.scala_e2e_existing_pipeline_all_2.udfs
+package io.prophecy.pipelines.dummy1733563667730.functions
 
 import _root_.io.prophecy.abinitio.ScalaFunctions._
 import _root_.io.prophecy.libs._
