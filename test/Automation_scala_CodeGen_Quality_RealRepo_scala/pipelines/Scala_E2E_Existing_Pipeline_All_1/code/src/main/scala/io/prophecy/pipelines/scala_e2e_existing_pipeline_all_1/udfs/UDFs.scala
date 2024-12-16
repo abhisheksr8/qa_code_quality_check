@@ -12,7 +12,10 @@ object UDFs extends Serializable {
     spark.udf.register("udf_multiply",      udf_multiply)
     spark.udf.register("udf_string_length", udf_string_length)
     spark.udf.register("udf_random_number", udf_random_number)
-    registerAllUDFs(spark)
+    try registerAllUDFs(spark)
+    catch {
+      case _ => ()
+    }
   }
 
   def udf_multiply = {
