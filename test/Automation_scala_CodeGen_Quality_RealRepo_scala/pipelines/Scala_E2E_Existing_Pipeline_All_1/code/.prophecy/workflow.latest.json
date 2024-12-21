@@ -8,7 +8,7 @@
     "codeGenConfiguration" : {
       "editableConfig" : false,
       "plibVersion" : {
-        "mavenVersion" : "8.6.0"
+        "mavenVersion" : "8.7.0-SNAPSHOT"
       }
     },
     "id" : "1",
