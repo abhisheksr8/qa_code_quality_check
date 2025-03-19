@@ -1,0 +1,100 @@
+version: 1
+schema:
+  type: struct
+  fields:
+  - name: c_tinyint
+    type: byte
+    nullable: true
+    metadata:
+      description: ''
+      mappings: []
+      tags: []
+  - name: c_smallint
+    type: short
+    nullable: true
+    metadata:
+      description: ''
+      mappings: []
+      tags: []
+  - name: c_int
+    type: integer
+    nullable: true
+    metadata:
+      description: ''
+      mappings: []
+      tags: []
+  - name: c_bigint
+    type: long
+    nullable: true
+    metadata:
+      description: ''
+      mappings: []
+      tags: []
+  - name: c_float
+    type: float
+    nullable: true
+    metadata:
+      description: ''
+      mappings: []
+      tags: []
+  - name: c_double
+    type: double
+    nullable: true
+    metadata:
+      description: ''
+      mappings: []
+      tags: []
+  - name: c_string
+    type: string
+    nullable: true
+    metadata:
+      description: ''
+      mappings: []
+      tags: []
+  - name: c_boolean
+    type: boolean
+    nullable: true
+    metadata:
+      description: ''
+      mappings: []
+      tags: []
+  - name: c_array
+    type:
+      type: array
+      elementType: string
+      containsNull: true
+    nullable: true
+    metadata:
+      description: ''
+      mappings: []
+      tags: []
+  - name: c_struct
+    type:
+      type: struct
+      fields:
+      - name: city
+        type: string
+        nullable: true
+        metadata:
+          description: ''
+          mappings: []
+          tags: []
+      - name: state
+        type: string
+        nullable: true
+        metadata:
+          description: ''
+          mappings: []
+          tags: []
+      - name: pin
+        type: long
+        nullable: true
+        metadata:
+          description: ''
+          mappings: []
+          tags: []
+    nullable: true
+    metadata:
+      description: ''
+      mappings: []
+      tags: []

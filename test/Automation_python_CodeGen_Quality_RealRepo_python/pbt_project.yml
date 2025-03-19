@@ -1,0 +1,276 @@
+name: Python_E2E_Existing
+description: ''
+version: 0.0.1
+author: abhisheks@prophecy.io
+language: python
+buildSystem: ''
+buildSystemDetails:
+  artefactID: pythone2eexisting
+  parentArtefactID: abhisheksprophecyioteam
+  buildSystem: wheel
+  author: null
+  createdAt: '2023-10-01 06:35:54'
+pipelines:
+  pipelines/Python_E2E_Existing_Pipeline_All_1:
+    name: Python_E2E_Existing_Pipeline_All_1
+    description: Python_E2E_Existing_Pipeline_All_1
+    author: abhisheks@prophecy.io
+    mode: batch
+    artefactID: ''
+    language: python
+    createdAt: '2023-10-01 06:36:39'
+    datasets:
+      inputs:
+      - datasets/dataset_cust_in
+      - datasets/qa_database_customers
+      outputs:
+      - datasets/dest_test_dataset_1
+    subgraphs:
+    - subgraphs/pythonSG
+    dependencies: {}
+  pipelines/Python_E2E_Existing_Pipeline_All_2:
+    name: Python_E2E_Existing_Pipeline_All_2
+    description: Python_E2E_Existing_Pipeline_All_2
+    author: abhisheks@prophecy.io
+    mode: batch
+    artefactID: ''
+    language: python
+    createdAt: '2023-10-03 05:01:27'
+    datasets:
+      inputs:
+      - datasets/dataset_cust_in
+      outputs:
+      - datasets/dest_all_target
+    subgraphs:
+    - subgraphs/pythonSG
+    dependencies: {}
+datasets:
+  datasets/dataset_cust_in:
+    name: dataset_cust_in
+    description: ''
+    author: abhisheks@prophecy.io
+    createdAt: '2023-10-01 06:37:15'
+    mode: batch
+    physicalDatasets:
+      dev:
+        fabricId: 39
+        datasetType: File
+        description: ''
+        author: abhisheks@prophecy.io
+        createdAt: '2023-10-01 06:37:15'
+  datasets/dest_test_dataset_1:
+    name: dest_test_dataset_1
+    description: ''
+    author: abhisheks@prophecy.io
+    createdAt: '2023-10-01 06:44:52'
+    mode: batch
+    physicalDatasets:
+      dev:
+        fabricId: 39
+        datasetType: File
+        description: ''
+        author: abhisheks@prophecy.io
+        createdAt: '2023-10-01 06:44:52'
+  datasets/qa_database_all_type_parquet:
+    name: qa_database_all_type_parquet
+    description: ''
+    author: abhisheks@prophecy.io
+    createdAt: '2023-10-01 07:00:55'
+    mode: batch
+    physicalDatasets:
+      dev:
+        fabricId: 39
+        datasetType: Database
+        description: ''
+        author: abhisheks@prophecy.io
+        createdAt: '2023-10-01 07:00:55'
+  datasets/qa_database_customers:
+    name: qa_database_customers
+    description: ''
+    author: abhisheks@prophecy.io
+    createdAt: '2023-10-01 07:01:34'
+    mode: batch
+    physicalDatasets:
+      dev:
+        fabricId: 39
+        datasetType: Database
+        description: ''
+        author: abhisheks@prophecy.io
+        createdAt: '2023-10-01 07:01:34'
+  datasets/dest_all_target:
+    name: dest_all_target
+    description: ''
+    author: abhisheks@prophecy.io
+    createdAt: '2023-10-03 05:08:08'
+    mode: batch
+    physicalDatasets:
+      dev:
+        fabricId: 39
+        datasetType: File
+        description: ''
+        author: abhisheks@prophecy.io
+        createdAt: '2023-10-03 05:08:08'
+templates: {}
+jobs:
+  jobs/Python_E2E_Existing_Pipeline_Job_1:
+    name: Python_E2E_Existing_Pipeline_Job_1
+    description: ''
+    fabricUID: 1
+    scheduler:
+      Databricks: {}
+    cloudProvider: null
+    jobSize: small
+    scheduleCron: 0 0 0 1 1 ? 2090
+    timeout: null
+    alerting:
+      emails: ''
+      onStart: false
+      onSuccess: false
+      onFailure: false
+    pipelines:
+    - pipelines/Python_E2E_Existing_Pipeline_All_1
+    - pipelines/Python_E2E_Existing_Pipeline_All_2
+    jobClusterMode:
+      clusterMode:
+        Single: {}
+      clusterId: null
+    enabled: true
+    createdAt: '2023-10-01 07:11:58'
+    author: abhisheks@prophecy.io
+    models: []
+    sqlProjects: []
+  jobs/Python_E2E_Existing_Pipeline_Job_2:
+    name: Python_E2E_Existing_Pipeline_Job_2
+    description: ''
+    fabricUID: 1
+    scheduler:
+      Databricks: {}
+    cloudProvider: null
+    jobSize: small
+    scheduleCron: 0 0 0 1 1 ? 2090
+    timeout: null
+    alerting:
+      emails: ''
+      onStart: false
+      onSuccess: false
+      onFailure: false
+    pipelines:
+    - pipelines/Python_E2E_Existing_Pipeline_All_1
+    - pipelines/Python_E2E_Existing_Pipeline_All_2
+    jobClusterMode:
+      clusterMode:
+        Single: {}
+      clusterId: null
+    enabled: true
+    createdAt: '2023-10-03 05:39:11'
+    author: abhisheks@prophecy.io
+    models: []
+    sqlProjects: []
+gemContainer:
+  languageVersion: '3.10'
+  gemLibsVersion: 1.3.4.0
+  gems: {}
+  dependencies: null
+functions:
+  author: null
+  createdAt: '2023-10-01 06:35:54'
+  udfs:
+    udfs/factorial_udf:
+      name: factorial_udf
+      description: ''
+      tags: []
+      inputs: []
+      outputs: []
+      author: abhisheks@prophecy.io
+      createdAt: '2022-12-15 18:04:50'
+    udfs/squared:
+      name: squared
+      description: ''
+      tags: []
+      inputs: []
+      outputs: []
+      author: abhisheks@prophecy.io
+      createdAt: '2022-12-15 18:04:50'
+    udfs/udf_prime:
+      name: udf_prime
+      description: ''
+      tags: []
+      inputs: []
+      outputs: []
+      author: abhisheks@prophecy.io
+      createdAt: '2022-12-15 18:04:50'
+  udafs: {}
+  expressions: {}
+  airflowFunctions: {}
+  businessRules: {}
+subgraphs:
+  subgraphs/pythonSG:
+    name: pythonSG
+    description: pythonmain.subgraphmain
+    author: abhisheks@prophecy.io
+    language: python
+    artefactID: ''
+    mode: batch
+    createdAt: '2023-10-01 06:42:41'
+sqlModels: {}
+sqlSnapshots: {}
+sqlTests: {}
+sqlMacros: {}
+sqlSeeds: {}
+sqlSources: {}
+sqlUnreferencedSources: {}
+sqlPipeline: null
+dependencies:
+- type: plibMaven
+  modifiedAt: '2024-04-05T06:26:06.011631Z'
+  name: plibMaven
+  version: 8.7.0-SNAPSHOT
+  id: '210975189'
+  createdAt: '2024-04-05T06:26:06.011517Z'
+  enabled: true
+  entity: Project
+- type: plibPypi
+  modifiedAt: '2024-04-05T06:26:06.011739Z'
+  name: plibPypi
+  version: 1.9.28
+  id: '331306946'
+  createdAt: '2024-04-05T06:26:06.011702Z'
+  enabled: true
+  entity: Project
+  __path: '[4]'
+projectDependencies:
+  '4':
+    projectUID: 4
+    projectName: ProphecySparkBasicsPython
+    repositoryPath: gitUri=http://gitserver:3000/QDtqmciq_team_2/QDtqmciq_project_4.git&subPath=
+    version: 0.2.39
+    isDefault: true
+    author: null
+    createdAt: '2024-12-21 12:07:57'
+  '5':
+    projectUID: 5
+    projectName: ProphecyWarehousePython
+    repositoryPath: gitUri=http://gitserver:3000/QDtqmciq_team_2/QDtqmciq_project_5.git&subPath=
+    version: 0.0.8
+    isDefault: true
+    author: null
+    createdAt: '2024-12-21 12:07:53'
+  '7':
+    projectUID: 7
+    projectName: ProphecyWebAppPython
+    repositoryPath: gitUri=http://gitserver:3000/QDtqmciq_team_2/QDtqmciq_project_7.git&subPath=
+    version: 0.1.0
+    isDefault: false
+    author: null
+    createdAt: '2024-12-21 12:07:56'
+  '9':
+    projectUID: 9
+    projectName: ProphecySparkAbinitioPython
+    repositoryPath: gitUri=http://gitserver:3000/QDtqmciq_team_2/QDtqmciq_project_9.git&subPath=
+    version: 0.0.24
+    isDefault: false
+    author: null
+    createdAt: '2024-12-21 12:07:55'
+flags:
+  shouldAddDefaultDependenciesIfAbsent: true
+pipelineConfigurations: {}

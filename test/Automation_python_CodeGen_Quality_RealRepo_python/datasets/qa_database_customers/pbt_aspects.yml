@@ -1,0 +1,39 @@
+version: 1
+schema:
+  type: struct
+  fields:
+  - name: c_int
+    type: long
+    nullable: true
+    metadata:
+      description: An integer value representing a specific customer attribute
+      mappings: []
+      tags: []
+  - name: c_bignumeric
+    type: long
+    nullable: true
+    metadata:
+      description: A large numeric value associated with the customer
+      mappings: []
+      tags: []
+  - name: c_string
+    type: string
+    nullable: true
+    metadata:
+      description: A string value representing customer-related information
+      mappings: []
+      tags: []
+  - name: c_float64
+    type: double
+    nullable: true
+    metadata:
+      description: A floating-point number representing a specific metric or value.
+      mappings: []
+      tags: []
+  - name: c_bool
+    type: boolean
+    nullable: true
+    metadata:
+      description: Indicates whether a certain condition is met or not.
+      mappings: []
+      tags: []

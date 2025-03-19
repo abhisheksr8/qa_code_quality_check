@@ -1,0 +1,7 @@
+version: 1
+configurations:
+- default
+- test_instance2
+- test_instance1
+pipelineVersion:
+  version: '2'
