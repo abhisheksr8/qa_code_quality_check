@@ -44,6 +44,19 @@ pipelines:
     subgraphs:
     - subgraphs/pythonSG
     dependencies: {}
+  pipelines/dummy1742367975477:
+    name: dummy1742367975477
+    description: automation workflow
+    author: abhisheks+e2etests@prophecy.io
+    mode: batch
+    artefactID: ''
+    language: python
+    createdAt: '2025-03-19 07:06:37'
+    datasets:
+      inputs: []
+      outputs: []
+    subgraphs: []
+    dependencies: {}
 datasets:
   datasets/dataset_cust_in:
     name: dataset_cust_in
@@ -219,58 +232,63 @@ sqlMacros: {}
 sqlSeeds: {}
 sqlSources: {}
 sqlUnreferencedSources: {}
+sqlOrchestratorPipelines: {}
+sqlBusinessApps: {}
 sqlPipeline: null
 dependencies:
 - type: plibMaven
   modifiedAt: '2024-04-05T06:26:06.011631Z'
   name: plibMaven
-  version: 8.7.0-SNAPSHOT
+  version: 8.9.0-SNAPSHOT
   id: '210975189'
   createdAt: '2024-04-05T06:26:06.011517Z'
   enabled: true
   entity: Project
 - type: plibPypi
-  modifiedAt: '2024-04-05T06:26:06.011739Z'
-  name: plibPypi
-  version: 1.9.28
+  modifiedAt: '2025-03-19T07:00:51.054Z'
+  name: ProphecyLibsPython
+  version: 1.9.38
   id: '331306946'
   createdAt: '2024-04-05T06:26:06.011702Z'
   enabled: true
   entity: Project
   __path: '[4]'
+  description: Default dependency for Prophecy Libs
+  scope: Project
+  editable: true
 projectDependencies:
-  '4':
-    projectUID: 4
+  '40':
+    projectUID: 40
     projectName: ProphecySparkBasicsPython
-    repositoryPath: gitUri=http://gitserver:3000/QDtqmciq_team_2/QDtqmciq_project_4.git&subPath=
-    version: 0.2.39
+    repositoryPath: gitUri=http://gitserver:3000/oimECIpO_team_2/OhOf1CSQ_project_40.git&subPath=
+    version: 0.2.42.dev5
     isDefault: true
     author: null
-    createdAt: '2024-12-21 12:07:57'
-  '5':
-    projectUID: 5
+    createdAt: '2025-03-19 07:02:23'
+  '41':
+    projectUID: 41
     projectName: ProphecyWarehousePython
-    repositoryPath: gitUri=http://gitserver:3000/QDtqmciq_team_2/QDtqmciq_project_5.git&subPath=
-    version: 0.0.8
+    repositoryPath: gitUri=http://gitserver:3000/oimECIpO_team_2/OhOf1CSQ_project_41.git&subPath=
+    version: 0.0.9.dev1
     isDefault: true
     author: null
-    createdAt: '2024-12-21 12:07:53'
-  '7':
-    projectUID: 7
+    createdAt: '2025-03-19 07:02:56'
+  '43':
+    projectUID: 43
     projectName: ProphecyWebAppPython
-    repositoryPath: gitUri=http://gitserver:3000/QDtqmciq_team_2/QDtqmciq_project_7.git&subPath=
-    version: 0.1.0
+    repositoryPath: gitUri=http://gitserver:3000/oimECIpO_team_2/OhOf1CSQ_project_43.git&subPath=
+    version: 0.1.2.dev1
     isDefault: false
     author: null
-    createdAt: '2024-12-21 12:07:56'
-  '9':
-    projectUID: 9
+    createdAt: '2025-03-19 07:03:26'
+  '44':
+    projectUID: 44
     projectName: ProphecySparkAbinitioPython
-    repositoryPath: gitUri=http://gitserver:3000/QDtqmciq_team_2/QDtqmciq_project_9.git&subPath=
-    version: 0.0.24
+    repositoryPath: gitUri=http://gitserver:3000/oimECIpO_team_2/OhOf1CSQ_project_44.git&subPath=
+    version: 0.0.28.dev0
     isDefault: false
     author: null
-    createdAt: '2024-12-21 12:07:55'
+    createdAt: '2025-03-19 07:03:52'
 flags:
   shouldAddDefaultDependenciesIfAbsent: true
 pipelineConfigurations: {}

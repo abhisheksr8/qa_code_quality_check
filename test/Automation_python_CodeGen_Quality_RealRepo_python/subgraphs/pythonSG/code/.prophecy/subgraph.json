@@ -450,10 +450,10 @@
         "language" : "python"
       },
       "componentInfo" : {
-        "gemId" : "gitUri=http://gitserver:3000/QDtqmciq_team_2/QDtqmciq_project_4.git&subPath=&tag=0.2.39&projectSubscriptionProjectId=4&path=gems/Reformat",
-        "projectId" : "4",
+        "gemId" : "gitUri=http://gitserver:3000/oimECIpO_team_2/OhOf1CSQ_project_40.git&subPath=&tag=0.2.42.dev5&projectSubscriptionProjectId=40&path=gems/Reformat",
+        "projectId" : "40",
         "projectName" : "ProphecySparkBasicsPython",
-        "version" : "0.2.39"
+        "version" : "0.2.42.dev5"
       }
     },
     "Gg5WbtHLbHDi6p6XBc_ey" : {
@@ -826,10 +826,10 @@
         "language" : "python"
       },
       "componentInfo" : {
-        "gemId" : "gitUri=http://gitserver:3000/QDtqmciq_team_2/QDtqmciq_project_4.git&subPath=&tag=0.2.39&projectSubscriptionProjectId=4&path=gems/Filter",
-        "projectId" : "4",
+        "gemId" : "gitUri=http://gitserver:3000/oimECIpO_team_2/OhOf1CSQ_project_40.git&subPath=&tag=0.2.42.dev5&projectSubscriptionProjectId=40&path=gems/Filter",
+        "projectId" : "40",
         "projectName" : "ProphecySparkBasicsPython",
-        "version" : "0.2.39"
+        "version" : "0.2.42.dev5"
       }
     },
     "nGLYEJIkZR_KjgM7gP8hG" : {
@@ -1426,10 +1426,10 @@
             "language" : "python"
           },
           "componentInfo" : {
-            "gemId" : "gitUri=http://gitserver:3000/QDtqmciq_team_2/QDtqmciq_project_4.git&subPath=&tag=0.2.39&projectSubscriptionProjectId=4&path=gems/RowDistributor",
-            "projectId" : "4",
+            "gemId" : "gitUri=http://gitserver:3000/oimECIpO_team_2/OhOf1CSQ_project_40.git&subPath=&tag=0.2.42.dev5&projectSubscriptionProjectId=40&path=gems/RowDistributor",
+            "projectId" : "40",
             "projectName" : "ProphecySparkBasicsPython",
-            "version" : "0.2.39"
+            "version" : "0.2.42.dev5"
           }
         }
       }

@@ -53,7 +53,6 @@ def main():
                 .config("spark.default.parallelism", "4")\
                 .config("spark.sql.legacy.allowUntypedScalaUDF", "true")\
                 .enableHiveSupport()\
-                .appName("Prophecy Pipeline")\
                 .getOrCreate()
     Utils.initializeFromArgs(spark, parse_args())
     spark.conf.set("prophecy.metadata.pipeline.uri", "pipelines/Python_E2E_Existing_Pipeline_All_1")
