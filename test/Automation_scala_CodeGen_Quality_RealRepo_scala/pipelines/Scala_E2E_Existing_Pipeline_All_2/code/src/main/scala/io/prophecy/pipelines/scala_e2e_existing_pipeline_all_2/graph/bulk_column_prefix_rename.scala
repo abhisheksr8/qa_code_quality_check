@@ -17,7 +17,7 @@ object bulk_column_prefix_rename {
     import org.apache.spark.sql.ProphecyDataFrame
     ProphecyDataFrame
       .extendedDataFrame(in)
-      .evaluate_expression("concat('pre_',column_name)",
+      .evaluate_expression("concat('pre_',column_name)".toString,
                            List("C_CUSTOMER_SK",
                                 "C_CUSTOMER_ID",
                                 "C_CURRENT_CDEMO_SK",
