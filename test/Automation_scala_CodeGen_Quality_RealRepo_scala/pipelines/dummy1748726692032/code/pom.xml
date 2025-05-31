@@ -2,7 +2,7 @@
 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <modelVersion>4.0.0</modelVersion>
     <groupId>Automation_scala_CodeGen_Quality_RealRepo-Cloned_Repo</groupId>
-    <artifactId>Scala_E2E_Existing_Pipeline_All_1</artifactId>
+    <artifactId>dummy1748726692032</artifactId>
     <description>workflow</description>
     <version>1.0</version>
     <packaging>jar</packaging>
