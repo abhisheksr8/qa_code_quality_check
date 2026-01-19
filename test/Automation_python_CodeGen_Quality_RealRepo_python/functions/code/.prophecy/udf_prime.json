@@ -1,0 +1,1 @@
+{"initCode":"initial=10","code":"@udf(returnType=BooleanType())\ndef udf_prime(x):\n    if num > 1:\n    # check for factors\n        for i in range(2,num):\n            if (num % i) == 0:\n                return False\n        else:\n            return True\n    else:\n        return False"}
