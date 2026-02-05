@@ -1,7 +1,7 @@
 <project 
 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>Automation_scala_CodeGen_Quality_RealRepo</groupId>
+    <groupId>Automationstabreg_scala_CodeGen_Quality_RealRepo-Cloned_Repo</groupId>
     <artifactId>Scala_E2E_Existing_Pipeline_All_1</artifactId>
     <description>workflow</description>
     <version>1.0</version>
@@ -10,7 +10,7 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
         <scalaBaseVersion>2.12</scalaBaseVersion>
         <scalaVersion>2.12.15</scalaVersion>
         <sparkVersion>3.3.0</sparkVersion>
-        <prophecyLibsVersion>8.6.0</prophecyLibsVersion>
+        <prophecyLibsVersion>9.0.0-SNAPSHOT</prophecyLibsVersion>
     </properties>
     <repositories>
         <repository>
@@ -25,7 +25,7 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
         <repository>
             <id>snapshots</id>
             <name>Central Snapshots</name>
-            <url>https://s01.oss.sonatype.org/content/repositories/snapshots/</url>
+            <url>https://central.sonatype.com/repository/maven-snapshots/</url>
             <layout>default</layout>
             <snapshots>
                 <enabled>true</enabled>

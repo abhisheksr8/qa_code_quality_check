@@ -8,7 +8,7 @@
     "codeGenConfiguration" : {
       "editableConfig" : false,
       "plibVersion" : {
-        "mavenVersion" : "8.7.0-SNAPSHOT"
+        "mavenVersion" : "9.0.0-SNAPSHOT"
       }
     },
     "id" : "1",
@@ -477,7 +477,7 @@
         }
       },
       "componentInfo" : {
-        "gemId" : "gitUri=http://gitserver:3000/QDtqmciq_team_2/QDtqmciq_project_1.git&subPath=&tag=0.2.6&projectSubscriptionProjectId=1&path=gems/Filter",
+        "gemId" : "gitUri=http://gitserver:3000/J2l8xYbB_team_2/J2l8xYbB_project_1.git&subPath=&tag=0.2.6.7.dev1&projectSubscriptionProjectId=1&path=gems/Filter",
         "projectName" : "ProphecySparkBasicsScala"
       }
     },
@@ -621,7 +621,7 @@
         "useOrderBy" : false
       },
       "componentInfo" : {
-        "gemId" : "gitUri=http://gitserver:3000/QDtqmciq_team_2/QDtqmciq_project_1.git&subPath=&tag=0.2.6&projectSubscriptionProjectId=1&path=gems/Deduplicate",
+        "gemId" : "gitUri=http://gitserver:3000/J2l8xYbB_team_2/J2l8xYbB_project_1.git&subPath=&tag=0.2.6.7.dev1&projectSubscriptionProjectId=1&path=gems/Deduplicate",
         "projectName" : "ProphecySparkBasicsScala"
       }
     },
@@ -823,7 +823,7 @@
         "mismatchExampleRight" : "mismatch_example_right"
       },
       "componentInfo" : {
-        "gemId" : "gitUri=http://gitserver:3000/QDtqmciq_team_2/QDtqmciq_project_1.git&subPath=&tag=0.2.6&projectSubscriptionProjectId=1&path=gems/CompareColumns",
+        "gemId" : "gitUri=http://gitserver:3000/J2l8xYbB_team_2/J2l8xYbB_project_1.git&subPath=&tag=0.2.6.7.dev1&projectSubscriptionProjectId=1&path=gems/CompareColumns",
         "projectName" : "ProphecySparkBasicsScala"
       }
     },
@@ -917,7 +917,7 @@
         "expressions" : [ ]
       },
       "componentInfo" : {
-        "gemId" : "gitUri=http://gitserver:3000/QDtqmciq_team_2/QDtqmciq_project_1.git&subPath=&tag=0.2.6&projectSubscriptionProjectId=1&path=gems/Reformat",
+        "gemId" : "gitUri=http://gitserver:3000/J2l8xYbB_team_2/J2l8xYbB_project_1.git&subPath=&tag=0.2.6.7.dev1&projectSubscriptionProjectId=1&path=gems/Reformat",
         "projectName" : "ProphecySparkBasicsScala"
       }
     },
@@ -1175,7 +1175,7 @@
             }
           },
           "componentInfo" : {
-            "gemId" : "gitUri=http://gitserver:3000/QDtqmciq_team_2/QDtqmciq_project_1.git&subPath=&tag=0.2.6&projectSubscriptionProjectId=1&path=gems/Filter",
+            "gemId" : "gitUri=http://gitserver:3000/J2l8xYbB_team_2/J2l8xYbB_project_1.git&subPath=&tag=0.2.6.7.dev1&projectSubscriptionProjectId=1&path=gems/Filter",
             "projectName" : "ProphecySparkBasicsScala"
           }
         },
@@ -1293,7 +1293,7 @@
             } ]
           },
           "componentInfo" : {
-            "gemId" : "gitUri=http://gitserver:3000/QDtqmciq_team_2/QDtqmciq_project_1.git&subPath=&tag=0.2.6&projectSubscriptionProjectId=1&path=gems/OrderBy",
+            "gemId" : "gitUri=http://gitserver:3000/J2l8xYbB_team_2/J2l8xYbB_project_1.git&subPath=&tag=0.2.6.7.dev1&projectSubscriptionProjectId=1&path=gems/OrderBy",
             "projectName" : "ProphecySparkBasicsScala"
           }
         },
@@ -1313,84 +1313,7 @@
           "ports" : {
             "inputs" : [ {
               "id" : "nm7zyZUnyhMTTtzinZlvj$$eUfqeLWSfKfTeJCQ1VG6c",
-              "slug" : "in0",
-              "schema" : {
-                "type" : "struct",
-                "fields" : [ {
-                  "name" : "customer_id",
-                  "type" : "string",
-                  "nullable" : true,
-                  "metadata" : {
-                    "description" : "",
-                    "mappings" : [ ],
-                    "tags" : [ ]
-                  }
-                }, {
-                  "name" : "first_name",
-                  "type" : "string",
-                  "nullable" : true,
-                  "metadata" : {
-                    "description" : "",
-                    "mappings" : [ ],
-                    "tags" : [ ]
-                  }
-                }, {
-                  "name" : "last_name",
-                  "type" : "string",
-                  "nullable" : true,
-                  "metadata" : {
-                    "description" : "",
-                    "mappings" : [ ],
-                    "tags" : [ ]
-                  }
-                }, {
-                  "name" : "phone",
-                  "type" : "string",
-                  "nullable" : true,
-                  "metadata" : {
-                    "description" : "",
-                    "mappings" : [ ],
-                    "tags" : [ ]
-                  }
-                }, {
-                  "name" : "email",
-                  "type" : "string",
-                  "nullable" : true,
-                  "metadata" : {
-                    "description" : "",
-                    "mappings" : [ ],
-                    "tags" : [ ]
-                  }
-                }, {
-                  "name" : "country_code",
-                  "type" : "string",
-                  "nullable" : true,
-                  "metadata" : {
-                    "description" : "",
-                    "mappings" : [ ],
-                    "tags" : [ ]
-                  }
-                }, {
-                  "name" : "account_open_date",
-                  "type" : "string",
-                  "nullable" : true,
-                  "metadata" : {
-                    "description" : "",
-                    "mappings" : [ ],
-                    "tags" : [ ]
-                  }
-                }, {
-                  "name" : "account_flags",
-                  "type" : "string",
-                  "nullable" : true,
-                  "metadata" : {
-                    "description" : "",
-                    "mappings" : [ ],
-                    "tags" : [ ]
-                  }
-                } ]
-              },
-              "isStreaming" : false
+              "slug" : "in0"
             } ],
             "outputs" : [ {
               "id" : "iLTj-F7goZH7Tm6ECHPVc$$9av7M0lGVI5uAtdpspgrz",
@@ -1440,84 +1363,7 @@
               "ports" : {
                 "inputs" : [ {
                   "id" : "ic5TV2KGLc8OIykTPrL6d$$pkYmnxentEuVAUVqTKYPx",
-                  "slug" : "in",
-                  "schema" : {
-                    "type" : "struct",
-                    "fields" : [ {
-                      "name" : "customer_id",
-                      "type" : "string",
-                      "nullable" : true,
-                      "metadata" : {
-                        "description" : "",
-                        "mappings" : [ ],
-                        "tags" : [ ]
-                      }
-                    }, {
-                      "name" : "first_name",
-                      "type" : "string",
-                      "nullable" : true,
-                      "metadata" : {
-                        "description" : "",
-                        "mappings" : [ ],
-                        "tags" : [ ]
-                      }
-                    }, {
-                      "name" : "last_name",
-                      "type" : "string",
-                      "nullable" : true,
-                      "metadata" : {
-                        "description" : "",
-                        "mappings" : [ ],
-                        "tags" : [ ]
-                      }
-                    }, {
-                      "name" : "phone",
-                      "type" : "string",
-                      "nullable" : true,
-                      "metadata" : {
-                        "description" : "",
-                        "mappings" : [ ],
-                        "tags" : [ ]
-                      }
-                    }, {
-                      "name" : "email",
-                      "type" : "string",
-                      "nullable" : true,
-                      "metadata" : {
-                        "description" : "",
-                        "mappings" : [ ],
-                        "tags" : [ ]
-                      }
-                    }, {
-                      "name" : "country_code",
-                      "type" : "string",
-                      "nullable" : true,
-                      "metadata" : {
-                        "description" : "",
-                        "mappings" : [ ],
-                        "tags" : [ ]
-                      }
-                    }, {
-                      "name" : "account_open_date",
-                      "type" : "string",
-                      "nullable" : true,
-                      "metadata" : {
-                        "description" : "",
-                        "mappings" : [ ],
-                        "tags" : [ ]
-                      }
-                    }, {
-                      "name" : "account_flags",
-                      "type" : "string",
-                      "nullable" : true,
-                      "metadata" : {
-                        "description" : "",
-                        "mappings" : [ ],
-                        "tags" : [ ]
-                      }
-                    } ]
-                  },
-                  "isStreaming" : false
+                  "slug" : "in"
                 } ],
                 "outputs" : [ {
                   "id" : "v6xTrgnSd6b2U2npiitA7$$_1HM-u4_T7hrt_f935Q8w",
@@ -1548,7 +1394,7 @@
                 } ]
               },
               "componentInfo" : {
-                "gemId" : "gitUri=http://gitserver:3000/QDtqmciq_team_2/QDtqmciq_project_1.git&subPath=&tag=0.2.6&projectSubscriptionProjectId=1&path=gems/RowDistributor",
+                "gemId" : "gitUri=http://gitserver:3000/J2l8xYbB_team_2/J2l8xYbB_project_1.git&subPath=&tag=0.2.6.7.dev1&projectSubscriptionProjectId=1&path=gems/RowDistributor",
                 "projectName" : "ProphecySparkBasicsScala"
               }
             }
@@ -1642,7 +1488,7 @@
         "nPartitions" : "10"
       },
       "componentInfo" : {
-        "gemId" : "gitUri=http://gitserver:3000/QDtqmciq_team_2/QDtqmciq_project_1.git&subPath=&tag=0.2.6&projectSubscriptionProjectId=1&path=gems/Repartition",
+        "gemId" : "gitUri=http://gitserver:3000/J2l8xYbB_team_2/J2l8xYbB_project_1.git&subPath=&tag=0.2.6.7.dev1&projectSubscriptionProjectId=1&path=gems/Repartition",
         "projectName" : "ProphecySparkBasicsScala"
       }
     },
@@ -1939,7 +1785,7 @@
         "prefixSuffixOption" : "Suffix"
       },
       "componentInfo" : {
-        "gemId" : "gitUri=http://gitserver:3000/QDtqmciq_team_2/QDtqmciq_project_1.git&subPath=&tag=0.2.6&projectSubscriptionProjectId=1&path=gems/BulkColumnExpressions",
+        "gemId" : "gitUri=http://gitserver:3000/J2l8xYbB_team_2/J2l8xYbB_project_1.git&subPath=&tag=0.2.6.7.dev1&projectSubscriptionProjectId=1&path=gems/BulkColumnExpressions",
         "projectName" : "ProphecySparkBasicsScala"
       }
     },
@@ -2134,7 +1980,7 @@
         "headAlias" : "in0"
       },
       "componentInfo" : {
-        "gemId" : "gitUri=http://gitserver:3000/QDtqmciq_team_2/QDtqmciq_project_1.git&subPath=&tag=0.2.6&projectSubscriptionProjectId=1&path=gems/Join",
+        "gemId" : "gitUri=http://gitserver:3000/J2l8xYbB_team_2/J2l8xYbB_project_1.git&subPath=&tag=0.2.6.7.dev1&projectSubscriptionProjectId=1&path=gems/Join",
         "projectName" : "ProphecySparkBasicsScala"
       }
     },
@@ -2225,7 +2071,7 @@
         } ]
       },
       "componentInfo" : {
-        "gemId" : "gitUri=http://gitserver:3000/QDtqmciq_team_2/QDtqmciq_project_1.git&subPath=&tag=0.2.6&projectSubscriptionProjectId=1&path=gems/OrderBy",
+        "gemId" : "gitUri=http://gitserver:3000/J2l8xYbB_team_2/J2l8xYbB_project_1.git&subPath=&tag=0.2.6.7.dev1&projectSubscriptionProjectId=1&path=gems/OrderBy",
         "projectName" : "ProphecySparkBasicsScala"
       }
     },
@@ -2379,7 +2225,7 @@
         } ]
       },
       "componentInfo" : {
-        "gemId" : "gitUri=http://gitserver:3000/QDtqmciq_team_2/QDtqmciq_project_1.git&subPath=&tag=0.2.6&projectSubscriptionProjectId=1&path=gems/Aggregate",
+        "gemId" : "gitUri=http://gitserver:3000/J2l8xYbB_team_2/J2l8xYbB_project_1.git&subPath=&tag=0.2.6.7.dev1&projectSubscriptionProjectId=1&path=gems/Aggregate",
         "projectName" : "ProphecySparkBasicsScala"
       }
     },
@@ -2566,7 +2412,7 @@
         "delimiter" : "-"
       },
       "componentInfo" : {
-        "gemId" : "gitUri=http://gitserver:3000/QDtqmciq_team_2/QDtqmciq_project_1.git&subPath=&tag=0.2.6&projectSubscriptionProjectId=1&path=gems/FlattenSchema",
+        "gemId" : "gitUri=http://gitserver:3000/J2l8xYbB_team_2/J2l8xYbB_project_1.git&subPath=&tag=0.2.6.7.dev1&projectSubscriptionProjectId=1&path=gems/FlattenSchema",
         "projectName" : "ProphecySparkBasicsScala"
       }
     },
@@ -2747,7 +2593,7 @@
         } ]
       },
       "componentInfo" : {
-        "gemId" : "gitUri=http://gitserver:3000/QDtqmciq_team_2/QDtqmciq_project_1.git&subPath=&tag=0.2.6&projectSubscriptionProjectId=1&path=gems/SchemaTransform",
+        "gemId" : "gitUri=http://gitserver:3000/J2l8xYbB_team_2/J2l8xYbB_project_1.git&subPath=&tag=0.2.6.7.dev1&projectSubscriptionProjectId=1&path=gems/SchemaTransform",
         "projectName" : "ProphecySparkBasicsScala"
       }
     },
@@ -2859,7 +2705,7 @@
         "expressions" : [ ]
       },
       "componentInfo" : {
-        "gemId" : "gitUri=http://gitserver:3000/QDtqmciq_team_2/QDtqmciq_project_1.git&subPath=&tag=0.2.6&projectSubscriptionProjectId=1&path=gems/Reformat",
+        "gemId" : "gitUri=http://gitserver:3000/J2l8xYbB_team_2/J2l8xYbB_project_1.git&subPath=&tag=0.2.6.7.dev1&projectSubscriptionProjectId=1&path=gems/Reformat",
         "projectName" : "ProphecySparkBasicsScala"
       }
     },
@@ -2955,7 +2801,7 @@
         "expressions" : [ ]
       },
       "componentInfo" : {
-        "gemId" : "gitUri=http://gitserver:3000/QDtqmciq_team_2/QDtqmciq_project_1.git&subPath=&tag=0.2.6&projectSubscriptionProjectId=1&path=gems/Reformat",
+        "gemId" : "gitUri=http://gitserver:3000/J2l8xYbB_team_2/J2l8xYbB_project_1.git&subPath=&tag=0.2.6.7.dev1&projectSubscriptionProjectId=1&path=gems/Reformat",
         "projectName" : "ProphecySparkBasicsScala"
       }
     },
@@ -3066,7 +2912,7 @@
         "limit" : "10"
       },
       "componentInfo" : {
-        "gemId" : "gitUri=http://gitserver:3000/QDtqmciq_team_2/QDtqmciq_project_1.git&subPath=&tag=0.2.6&projectSubscriptionProjectId=1&path=gems/Limit",
+        "gemId" : "gitUri=http://gitserver:3000/J2l8xYbB_team_2/J2l8xYbB_project_1.git&subPath=&tag=0.2.6.7.dev1&projectSubscriptionProjectId=1&path=gems/Limit",
         "projectName" : "ProphecySparkBasicsScala"
       }
     },
@@ -3178,7 +3024,7 @@
         "expressions" : [ ]
       },
       "componentInfo" : {
-        "gemId" : "gitUri=http://gitserver:3000/QDtqmciq_team_2/QDtqmciq_project_1.git&subPath=&tag=0.2.6&projectSubscriptionProjectId=1&path=gems/Reformat",
+        "gemId" : "gitUri=http://gitserver:3000/J2l8xYbB_team_2/J2l8xYbB_project_1.git&subPath=&tag=0.2.6.7.dev1&projectSubscriptionProjectId=1&path=gems/Reformat",
         "projectName" : "ProphecySparkBasicsScala"
       }
     },
@@ -3378,6 +3224,9 @@
         "autoUpdateOnRun" : false
       },
       "properties" : {
+        "prefix" : "pre_",
+        "columnNames" : [ "C_CUSTOMER_SK", "C_CUSTOMER_ID", "C_CURRENT_CDEMO_SK", "C_CURRENT_HDEMO_SK" ],
+        "suffix" : null,
         "schema" : {
           "type" : "struct",
           "fields" : [ {
@@ -3544,12 +3393,11 @@
             }
           } ]
         },
-        "renameMethod" : "Add Prefix",
-        "columnNames" : [ "C_CUSTOMER_SK", "C_CUSTOMER_ID", "C_CURRENT_CDEMO_SK", "C_CURRENT_HDEMO_SK" ],
-        "prefix" : "pre_"
+        "customExpression" : null,
+        "renameMethod" : "Add Prefix"
       },
       "componentInfo" : {
-        "gemId" : "gitUri=http://gitserver:3000/QDtqmciq_team_2/QDtqmciq_project_1.git&subPath=&tag=0.2.6&projectSubscriptionProjectId=1&path=gems/BulkColumnRename",
+        "gemId" : "gitUri=http://gitserver:3000/J2l8xYbB_team_2/J2l8xYbB_project_1.git&subPath=&tag=0.2.6.7.dev1&projectSubscriptionProjectId=1&path=gems/BulkColumnRename",
         "projectName" : "ProphecySparkBasicsScala"
       }
     },
@@ -3666,7 +3514,7 @@
         "inputPortNames" : [ "in0" ]
       },
       "componentInfo" : {
-        "gemId" : "gitUri=http://gitserver:3000/QDtqmciq_team_2/QDtqmciq_project_1.git&subPath=&tag=0.2.6&projectSubscriptionProjectId=1&path=gems/SQLStatement",
+        "gemId" : "gitUri=http://gitserver:3000/J2l8xYbB_team_2/J2l8xYbB_project_1.git&subPath=&tag=0.2.6.7.dev1&projectSubscriptionProjectId=1&path=gems/SQLStatement",
         "projectName" : "ProphecySparkBasicsScala"
       }
     },
@@ -3767,7 +3615,7 @@
         } ]
       },
       "componentInfo" : {
-        "gemId" : "gitUri=http://gitserver:3000/QDtqmciq_team_2/QDtqmciq_project_1.git&subPath=&tag=0.2.6&projectSubscriptionProjectId=1&path=gems/RowDistributor",
+        "gemId" : "gitUri=http://gitserver:3000/J2l8xYbB_team_2/J2l8xYbB_project_1.git&subPath=&tag=0.2.6.7.dev1&projectSubscriptionProjectId=1&path=gems/RowDistributor",
         "projectName" : "ProphecySparkBasicsScala"
       }
     },
@@ -4071,7 +3919,7 @@
         "userSpecifiedStart" : null
       },
       "componentInfo" : {
-        "gemId" : "gitUri=http://gitserver:3000/QDtqmciq_team_2/QDtqmciq_project_1.git&subPath=&tag=0.2.6&projectSubscriptionProjectId=1&path=gems/WindowFunction",
+        "gemId" : "gitUri=http://gitserver:3000/J2l8xYbB_team_2/J2l8xYbB_project_1.git&subPath=&tag=0.2.6.7.dev1&projectSubscriptionProjectId=1&path=gems/WindowFunction",
         "projectName" : "ProphecySparkBasicsScala"
       }
     },
@@ -4263,7 +4111,7 @@
         "allowMissingColumns" : false
       },
       "componentInfo" : {
-        "gemId" : "gitUri=http://gitserver:3000/QDtqmciq_team_2/QDtqmciq_project_1.git&subPath=&tag=0.2.6&projectSubscriptionProjectId=1&path=gems/SetOperation",
+        "gemId" : "gitUri=http://gitserver:3000/J2l8xYbB_team_2/J2l8xYbB_project_1.git&subPath=&tag=0.2.6.7.dev1&projectSubscriptionProjectId=1&path=gems/SetOperation",
         "projectName" : "ProphecySparkBasicsScala"
       }
     }
@@ -4274,5 +4122,710 @@
     "selectedInputFields" : [ ],
     "isCustomOutputSchema" : false,
     "autoUpdateOnRun" : false
-  }
+  },
+  "diagnostics" : [ {
+    "property" : "$.workflow.processes.uJItOV-5HMlnE96_g7K-o$$PTdOsRmU2SURbe9PgbVuS",
+    "range" : {
+      "start" : {
+        "line" : 0,
+        "character" : 0
+      },
+      "end" : {
+        "line" : 0,
+        "character" : 0
+      }
+    },
+    "severity" : 1,
+    "message" : "Gems inside the subgraph are broken",
+    "tags" : [ ],
+    "relatedInformation" : [ ]
+  }, {
+    "property" : "$.workflow.processes.uJItOV-5HMlnE96_g7K-o$$PTdOsRmU2SURbe9PgbVuS.processes.fH3qrCAz1gUq_xWW_DlmC$$DGOiNBiTMkNpcR3tXwD-S",
+    "range" : {
+      "start" : {
+        "line" : 0,
+        "character" : 0
+      },
+      "end" : {
+        "line" : 0,
+        "character" : 0
+      }
+    },
+    "severity" : 1,
+    "message" : "The http server closed the connection unexpectedly before delivering responses for 1 outstanding requests",
+    "tags" : [ ],
+    "relatedInformation" : [ ]
+  }, {
+    "property" : "$.workflow.processes.uJItOV-5HMlnE96_g7K-o$$PTdOsRmU2SURbe9PgbVuS.processes.1AShx15VLyt7U9EFszDS6$$eaLNnEA3oOBGvF6L8LT8B",
+    "range" : {
+      "start" : {
+        "line" : 0,
+        "character" : 0
+      },
+      "end" : {
+        "line" : 0,
+        "character" : 0
+      }
+    },
+    "severity" : 2,
+    "message" : "Gems inside the subgraph have warning",
+    "tags" : [ ],
+    "relatedInformation" : [ ]
+  }, {
+    "property" : "$.workflow.processes.uJItOV-5HMlnE96_g7K-o$$PTdOsRmU2SURbe9PgbVuS.processes.1AShx15VLyt7U9EFszDS6$$eaLNnEA3oOBGvF6L8LT8B.processes.izk01c9tzR2gH2eQjeAem$$Wwm2XHletUuTBd9lsEWwk",
+    "range" : {
+      "start" : {
+        "line" : 0,
+        "character" : 0
+      },
+      "end" : {
+        "line" : 0,
+        "character" : 0
+      }
+    },
+    "severity" : 2,
+    "message" : "One of the upstream gems is broken. Please, fix it first.",
+    "tags" : [ ],
+    "relatedInformation" : [ ]
+  }, {
+    "property" : "$.workflow.processes.uJItOV-5HMlnE96_g7K-o$$PTdOsRmU2SURbe9PgbVuS.processes.fH3qrCAz1gUq_xWW_DlmC$$DGOiNBiTMkNpcR3tXwD-S.test.unitTests[0].data.aEmlodihw6za-pJhuZRAV$$6eaBPcakdsipQZndFJVYv.schema.fields[0].name",
+    "range" : {
+      "start" : {
+        "line" : 0,
+        "character" : 0
+      },
+      "end" : {
+        "line" : 0,
+        "character" : 0
+      }
+    },
+    "severity" : 1,
+    "message" : "Column out.customer_id used within the test Unit Test  is not defined.",
+    "tags" : [ ],
+    "relatedInformation" : [ ]
+  }, {
+    "property" : "$.workflow.processes.uJItOV-5HMlnE96_g7K-o$$PTdOsRmU2SURbe9PgbVuS.processes.fH3qrCAz1gUq_xWW_DlmC$$DGOiNBiTMkNpcR3tXwD-S.test.unitTests[0].data.aEmlodihw6za-pJhuZRAV$$6eaBPcakdsipQZndFJVYv.schema.fields[1].name",
+    "range" : {
+      "start" : {
+        "line" : 0,
+        "character" : 0
+      },
+      "end" : {
+        "line" : 0,
+        "character" : 0
+      }
+    },
+    "severity" : 1,
+    "message" : "Column out.first_name used within the test Unit Test  is not defined.",
+    "tags" : [ ],
+    "relatedInformation" : [ ]
+  }, {
+    "property" : "$.workflow.processes.uJItOV-5HMlnE96_g7K-o$$PTdOsRmU2SURbe9PgbVuS.processes.fH3qrCAz1gUq_xWW_DlmC$$DGOiNBiTMkNpcR3tXwD-S.test.unitTests[0].data.aEmlodihw6za-pJhuZRAV$$6eaBPcakdsipQZndFJVYv.schema.fields[2].name",
+    "range" : {
+      "start" : {
+        "line" : 0,
+        "character" : 0
+      },
+      "end" : {
+        "line" : 0,
+        "character" : 0
+      }
+    },
+    "severity" : 1,
+    "message" : "Column out.last_name used within the test Unit Test  is not defined.",
+    "tags" : [ ],
+    "relatedInformation" : [ ]
+  }, {
+    "property" : "$.workflow.processes.uJItOV-5HMlnE96_g7K-o$$PTdOsRmU2SURbe9PgbVuS.processes.fH3qrCAz1gUq_xWW_DlmC$$DGOiNBiTMkNpcR3tXwD-S.test.unitTests[0].data.aEmlodihw6za-pJhuZRAV$$6eaBPcakdsipQZndFJVYv.schema.fields[3].name",
+    "range" : {
+      "start" : {
+        "line" : 0,
+        "character" : 0
+      },
+      "end" : {
+        "line" : 0,
+        "character" : 0
+      }
+    },
+    "severity" : 1,
+    "message" : "Column out.phone used within the test Unit Test  is not defined.",
+    "tags" : [ ],
+    "relatedInformation" : [ ]
+  }, {
+    "property" : "$.workflow.processes.uJItOV-5HMlnE96_g7K-o$$PTdOsRmU2SURbe9PgbVuS.processes.fH3qrCAz1gUq_xWW_DlmC$$DGOiNBiTMkNpcR3tXwD-S.test.unitTests[0].data.aEmlodihw6za-pJhuZRAV$$6eaBPcakdsipQZndFJVYv.schema.fields[4].name",
+    "range" : {
+      "start" : {
+        "line" : 0,
+        "character" : 0
+      },
+      "end" : {
+        "line" : 0,
+        "character" : 0
+      }
+    },
+    "severity" : 1,
+    "message" : "Column out.email used within the test Unit Test  is not defined.",
+    "tags" : [ ],
+    "relatedInformation" : [ ]
+  }, {
+    "property" : "$.workflow.processes.uJItOV-5HMlnE96_g7K-o$$PTdOsRmU2SURbe9PgbVuS.processes.fH3qrCAz1gUq_xWW_DlmC$$DGOiNBiTMkNpcR3tXwD-S.test.unitTests[0].data.aEmlodihw6za-pJhuZRAV$$6eaBPcakdsipQZndFJVYv.schema.fields[5].name",
+    "range" : {
+      "start" : {
+        "line" : 0,
+        "character" : 0
+      },
+      "end" : {
+        "line" : 0,
+        "character" : 0
+      }
+    },
+    "severity" : 1,
+    "message" : "Column out.country_code used within the test Unit Test  is not defined.",
+    "tags" : [ ],
+    "relatedInformation" : [ ]
+  }, {
+    "property" : "$.workflow.processes.uJItOV-5HMlnE96_g7K-o$$PTdOsRmU2SURbe9PgbVuS.processes.fH3qrCAz1gUq_xWW_DlmC$$DGOiNBiTMkNpcR3tXwD-S.test.unitTests[0].data.aEmlodihw6za-pJhuZRAV$$6eaBPcakdsipQZndFJVYv.schema.fields[6].name",
+    "range" : {
+      "start" : {
+        "line" : 0,
+        "character" : 0
+      },
+      "end" : {
+        "line" : 0,
+        "character" : 0
+      }
+    },
+    "severity" : 1,
+    "message" : "Column out.account_open_date used within the test Unit Test  is not defined.",
+    "tags" : [ ],
+    "relatedInformation" : [ ]
+  }, {
+    "property" : "$.workflow.processes.uJItOV-5HMlnE96_g7K-o$$PTdOsRmU2SURbe9PgbVuS.processes.fH3qrCAz1gUq_xWW_DlmC$$DGOiNBiTMkNpcR3tXwD-S.test.unitTests[0].data.aEmlodihw6za-pJhuZRAV$$6eaBPcakdsipQZndFJVYv.schema.fields[7].name",
+    "range" : {
+      "start" : {
+        "line" : 0,
+        "character" : 0
+      },
+      "end" : {
+        "line" : 0,
+        "character" : 0
+      }
+    },
+    "severity" : 1,
+    "message" : "Column out.account_flags used within the test Unit Test  is not defined.",
+    "tags" : [ ],
+    "relatedInformation" : [ ]
+  }, {
+    "property" : "$.workflow.processes.uJItOV-5HMlnE96_g7K-o$$PTdOsRmU2SURbe9PgbVuS.processes.fH3qrCAz1gUq_xWW_DlmC$$DGOiNBiTMkNpcR3tXwD-S.test.unitTests[1].data.aEmlodihw6za-pJhuZRAV$$6eaBPcakdsipQZndFJVYv.schema.fields[0].name",
+    "range" : {
+      "start" : {
+        "line" : 0,
+        "character" : 0
+      },
+      "end" : {
+        "line" : 0,
+        "character" : 0
+      }
+    },
+    "severity" : 1,
+    "message" : "Column out.customer_id used within the test Unit Test _1 is not defined.",
+    "tags" : [ ],
+    "relatedInformation" : [ ]
+  }, {
+    "property" : "$.workflow.processes.uJItOV-5HMlnE96_g7K-o$$PTdOsRmU2SURbe9PgbVuS.processes.fH3qrCAz1gUq_xWW_DlmC$$DGOiNBiTMkNpcR3tXwD-S.test.unitTests[1].data.aEmlodihw6za-pJhuZRAV$$6eaBPcakdsipQZndFJVYv.schema.fields[1].name",
+    "range" : {
+      "start" : {
+        "line" : 0,
+        "character" : 0
+      },
+      "end" : {
+        "line" : 0,
+        "character" : 0
+      }
+    },
+    "severity" : 1,
+    "message" : "Column out.first_name used within the test Unit Test _1 is not defined.",
+    "tags" : [ ],
+    "relatedInformation" : [ ]
+  }, {
+    "property" : "$.workflow.processes.uJItOV-5HMlnE96_g7K-o$$PTdOsRmU2SURbe9PgbVuS.processes.fH3qrCAz1gUq_xWW_DlmC$$DGOiNBiTMkNpcR3tXwD-S.test.unitTests[1].data.aEmlodihw6za-pJhuZRAV$$6eaBPcakdsipQZndFJVYv.schema.fields[2].name",
+    "range" : {
+      "start" : {
+        "line" : 0,
+        "character" : 0
+      },
+      "end" : {
+        "line" : 0,
+        "character" : 0
+      }
+    },
+    "severity" : 1,
+    "message" : "Column out.last_name used within the test Unit Test _1 is not defined.",
+    "tags" : [ ],
+    "relatedInformation" : [ ]
+  }, {
+    "property" : "$.workflow.processes.uJItOV-5HMlnE96_g7K-o$$PTdOsRmU2SURbe9PgbVuS.processes.fH3qrCAz1gUq_xWW_DlmC$$DGOiNBiTMkNpcR3tXwD-S.test.unitTests[1].data.aEmlodihw6za-pJhuZRAV$$6eaBPcakdsipQZndFJVYv.schema.fields[3].name",
+    "range" : {
+      "start" : {
+        "line" : 0,
+        "character" : 0
+      },
+      "end" : {
+        "line" : 0,
+        "character" : 0
+      }
+    },
+    "severity" : 1,
+    "message" : "Column out.phone used within the test Unit Test _1 is not defined.",
+    "tags" : [ ],
+    "relatedInformation" : [ ]
+  }, {
+    "property" : "$.workflow.processes.uJItOV-5HMlnE96_g7K-o$$PTdOsRmU2SURbe9PgbVuS.processes.fH3qrCAz1gUq_xWW_DlmC$$DGOiNBiTMkNpcR3tXwD-S.test.unitTests[1].data.aEmlodihw6za-pJhuZRAV$$6eaBPcakdsipQZndFJVYv.schema.fields[4].name",
+    "range" : {
+      "start" : {
+        "line" : 0,
+        "character" : 0
+      },
+      "end" : {
+        "line" : 0,
+        "character" : 0
+      }
+    },
+    "severity" : 1,
+    "message" : "Column out.email used within the test Unit Test _1 is not defined.",
+    "tags" : [ ],
+    "relatedInformation" : [ ]
+  }, {
+    "property" : "$.workflow.processes.uJItOV-5HMlnE96_g7K-o$$PTdOsRmU2SURbe9PgbVuS.processes.fH3qrCAz1gUq_xWW_DlmC$$DGOiNBiTMkNpcR3tXwD-S.test.unitTests[1].data.aEmlodihw6za-pJhuZRAV$$6eaBPcakdsipQZndFJVYv.schema.fields[5].name",
+    "range" : {
+      "start" : {
+        "line" : 0,
+        "character" : 0
+      },
+      "end" : {
+        "line" : 0,
+        "character" : 0
+      }
+    },
+    "severity" : 1,
+    "message" : "Column out.country_code used within the test Unit Test _1 is not defined.",
+    "tags" : [ ],
+    "relatedInformation" : [ ]
+  }, {
+    "property" : "$.workflow.processes.uJItOV-5HMlnE96_g7K-o$$PTdOsRmU2SURbe9PgbVuS.processes.fH3qrCAz1gUq_xWW_DlmC$$DGOiNBiTMkNpcR3tXwD-S.test.unitTests[1].data.aEmlodihw6za-pJhuZRAV$$6eaBPcakdsipQZndFJVYv.schema.fields[6].name",
+    "range" : {
+      "start" : {
+        "line" : 0,
+        "character" : 0
+      },
+      "end" : {
+        "line" : 0,
+        "character" : 0
+      }
+    },
+    "severity" : 1,
+    "message" : "Column out.account_open_date used within the test Unit Test _1 is not defined.",
+    "tags" : [ ],
+    "relatedInformation" : [ ]
+  }, {
+    "property" : "$.workflow.processes.uJItOV-5HMlnE96_g7K-o$$PTdOsRmU2SURbe9PgbVuS.processes.fH3qrCAz1gUq_xWW_DlmC$$DGOiNBiTMkNpcR3tXwD-S.test.unitTests[1].data.aEmlodihw6za-pJhuZRAV$$6eaBPcakdsipQZndFJVYv.schema.fields[7].name",
+    "range" : {
+      "start" : {
+        "line" : 0,
+        "character" : 0
+      },
+      "end" : {
+        "line" : 0,
+        "character" : 0
+      }
+    },
+    "severity" : 1,
+    "message" : "Column out.account_flags used within the test Unit Test _1 is not defined.",
+    "tags" : [ ],
+    "relatedInformation" : [ ]
+  }, {
+    "property" : "$.workflow.processes.uJItOV-5HMlnE96_g7K-o$$PTdOsRmU2SURbe9PgbVuS.processes.1AShx15VLyt7U9EFszDS6$$eaLNnEA3oOBGvF6L8LT8B.processes.izk01c9tzR2gH2eQjeAem$$Wwm2XHletUuTBd9lsEWwk.test.unitTests[0].data.ic5TV2KGLc8OIykTPrL6d$$pkYmnxentEuVAUVqTKYPx.schema.fields[0].name",
+    "range" : {
+      "start" : {
+        "line" : 0,
+        "character" : 0
+      },
+      "end" : {
+        "line" : 0,
+        "character" : 0
+      }
+    },
+    "severity" : 1,
+    "message" : "Column in.customer_id used within the test Unit Test  is not defined.",
+    "tags" : [ ],
+    "relatedInformation" : [ ]
+  }, {
+    "property" : "$.workflow.processes.uJItOV-5HMlnE96_g7K-o$$PTdOsRmU2SURbe9PgbVuS.processes.1AShx15VLyt7U9EFszDS6$$eaLNnEA3oOBGvF6L8LT8B.processes.izk01c9tzR2gH2eQjeAem$$Wwm2XHletUuTBd9lsEWwk.test.unitTests[0].data.ic5TV2KGLc8OIykTPrL6d$$pkYmnxentEuVAUVqTKYPx.schema.fields[1].name",
+    "range" : {
+      "start" : {
+        "line" : 0,
+        "character" : 0
+      },
+      "end" : {
+        "line" : 0,
+        "character" : 0
+      }
+    },
+    "severity" : 1,
+    "message" : "Column in.first_name used within the test Unit Test  is not defined.",
+    "tags" : [ ],
+    "relatedInformation" : [ ]
+  }, {
+    "property" : "$.workflow.processes.uJItOV-5HMlnE96_g7K-o$$PTdOsRmU2SURbe9PgbVuS.processes.1AShx15VLyt7U9EFszDS6$$eaLNnEA3oOBGvF6L8LT8B.processes.izk01c9tzR2gH2eQjeAem$$Wwm2XHletUuTBd9lsEWwk.test.unitTests[0].data.ic5TV2KGLc8OIykTPrL6d$$pkYmnxentEuVAUVqTKYPx.schema.fields[2].name",
+    "range" : {
+      "start" : {
+        "line" : 0,
+        "character" : 0
+      },
+      "end" : {
+        "line" : 0,
+        "character" : 0
+      }
+    },
+    "severity" : 1,
+    "message" : "Column in.last_name used within the test Unit Test  is not defined.",
+    "tags" : [ ],
+    "relatedInformation" : [ ]
+  }, {
+    "property" : "$.workflow.processes.uJItOV-5HMlnE96_g7K-o$$PTdOsRmU2SURbe9PgbVuS.processes.1AShx15VLyt7U9EFszDS6$$eaLNnEA3oOBGvF6L8LT8B.processes.izk01c9tzR2gH2eQjeAem$$Wwm2XHletUuTBd9lsEWwk.test.unitTests[0].data.ic5TV2KGLc8OIykTPrL6d$$pkYmnxentEuVAUVqTKYPx.schema.fields[3].name",
+    "range" : {
+      "start" : {
+        "line" : 0,
+        "character" : 0
+      },
+      "end" : {
+        "line" : 0,
+        "character" : 0
+      }
+    },
+    "severity" : 1,
+    "message" : "Column in.phone used within the test Unit Test  is not defined.",
+    "tags" : [ ],
+    "relatedInformation" : [ ]
+  }, {
+    "property" : "$.workflow.processes.uJItOV-5HMlnE96_g7K-o$$PTdOsRmU2SURbe9PgbVuS.processes.1AShx15VLyt7U9EFszDS6$$eaLNnEA3oOBGvF6L8LT8B.processes.izk01c9tzR2gH2eQjeAem$$Wwm2XHletUuTBd9lsEWwk.test.unitTests[0].data.ic5TV2KGLc8OIykTPrL6d$$pkYmnxentEuVAUVqTKYPx.schema.fields[4].name",
+    "range" : {
+      "start" : {
+        "line" : 0,
+        "character" : 0
+      },
+      "end" : {
+        "line" : 0,
+        "character" : 0
+      }
+    },
+    "severity" : 1,
+    "message" : "Column in.email used within the test Unit Test  is not defined.",
+    "tags" : [ ],
+    "relatedInformation" : [ ]
+  }, {
+    "property" : "$.workflow.processes.uJItOV-5HMlnE96_g7K-o$$PTdOsRmU2SURbe9PgbVuS.processes.1AShx15VLyt7U9EFszDS6$$eaLNnEA3oOBGvF6L8LT8B.processes.izk01c9tzR2gH2eQjeAem$$Wwm2XHletUuTBd9lsEWwk.test.unitTests[0].data.ic5TV2KGLc8OIykTPrL6d$$pkYmnxentEuVAUVqTKYPx.schema.fields[5].name",
+    "range" : {
+      "start" : {
+        "line" : 0,
+        "character" : 0
+      },
+      "end" : {
+        "line" : 0,
+        "character" : 0
+      }
+    },
+    "severity" : 1,
+    "message" : "Column in.country_code used within the test Unit Test  is not defined.",
+    "tags" : [ ],
+    "relatedInformation" : [ ]
+  }, {
+    "property" : "$.workflow.processes.uJItOV-5HMlnE96_g7K-o$$PTdOsRmU2SURbe9PgbVuS.processes.1AShx15VLyt7U9EFszDS6$$eaLNnEA3oOBGvF6L8LT8B.processes.izk01c9tzR2gH2eQjeAem$$Wwm2XHletUuTBd9lsEWwk.test.unitTests[0].data.ic5TV2KGLc8OIykTPrL6d$$pkYmnxentEuVAUVqTKYPx.schema.fields[6].name",
+    "range" : {
+      "start" : {
+        "line" : 0,
+        "character" : 0
+      },
+      "end" : {
+        "line" : 0,
+        "character" : 0
+      }
+    },
+    "severity" : 1,
+    "message" : "Column in.account_open_date used within the test Unit Test  is not defined.",
+    "tags" : [ ],
+    "relatedInformation" : [ ]
+  }, {
+    "property" : "$.workflow.processes.uJItOV-5HMlnE96_g7K-o$$PTdOsRmU2SURbe9PgbVuS.processes.1AShx15VLyt7U9EFszDS6$$eaLNnEA3oOBGvF6L8LT8B.processes.izk01c9tzR2gH2eQjeAem$$Wwm2XHletUuTBd9lsEWwk.test.unitTests[0].data.ic5TV2KGLc8OIykTPrL6d$$pkYmnxentEuVAUVqTKYPx.schema.fields[7].name",
+    "range" : {
+      "start" : {
+        "line" : 0,
+        "character" : 0
+      },
+      "end" : {
+        "line" : 0,
+        "character" : 0
+      }
+    },
+    "severity" : 1,
+    "message" : "Column in.account_flags used within the test Unit Test  is not defined.",
+    "tags" : [ ],
+    "relatedInformation" : [ ]
+  }, {
+    "property" : "$.workflow.processes.uJItOV-5HMlnE96_g7K-o$$PTdOsRmU2SURbe9PgbVuS.processes.1AShx15VLyt7U9EFszDS6$$eaLNnEA3oOBGvF6L8LT8B.processes.izk01c9tzR2gH2eQjeAem$$Wwm2XHletUuTBd9lsEWwk.test.unitTests[0].data.v6xTrgnSd6b2U2npiitA7$$_1HM-u4_T7hrt_f935Q8w.schema.fields[0].name",
+    "range" : {
+      "start" : {
+        "line" : 0,
+        "character" : 0
+      },
+      "end" : {
+        "line" : 0,
+        "character" : 0
+      }
+    },
+    "severity" : 1,
+    "message" : "Column out0.customer_id used within the test Unit Test  is not defined.",
+    "tags" : [ ],
+    "relatedInformation" : [ ]
+  }, {
+    "property" : "$.workflow.processes.uJItOV-5HMlnE96_g7K-o$$PTdOsRmU2SURbe9PgbVuS.processes.1AShx15VLyt7U9EFszDS6$$eaLNnEA3oOBGvF6L8LT8B.processes.izk01c9tzR2gH2eQjeAem$$Wwm2XHletUuTBd9lsEWwk.test.unitTests[0].data.v6xTrgnSd6b2U2npiitA7$$_1HM-u4_T7hrt_f935Q8w.schema.fields[1].name",
+    "range" : {
+      "start" : {
+        "line" : 0,
+        "character" : 0
+      },
+      "end" : {
+        "line" : 0,
+        "character" : 0
+      }
+    },
+    "severity" : 1,
+    "message" : "Column out0.first_name used within the test Unit Test  is not defined.",
+    "tags" : [ ],
+    "relatedInformation" : [ ]
+  }, {
+    "property" : "$.workflow.processes.uJItOV-5HMlnE96_g7K-o$$PTdOsRmU2SURbe9PgbVuS.processes.1AShx15VLyt7U9EFszDS6$$eaLNnEA3oOBGvF6L8LT8B.processes.izk01c9tzR2gH2eQjeAem$$Wwm2XHletUuTBd9lsEWwk.test.unitTests[0].data.v6xTrgnSd6b2U2npiitA7$$_1HM-u4_T7hrt_f935Q8w.schema.fields[2].name",
+    "range" : {
+      "start" : {
+        "line" : 0,
+        "character" : 0
+      },
+      "end" : {
+        "line" : 0,
+        "character" : 0
+      }
+    },
+    "severity" : 1,
+    "message" : "Column out0.last_name used within the test Unit Test  is not defined.",
+    "tags" : [ ],
+    "relatedInformation" : [ ]
+  }, {
+    "property" : "$.workflow.processes.uJItOV-5HMlnE96_g7K-o$$PTdOsRmU2SURbe9PgbVuS.processes.1AShx15VLyt7U9EFszDS6$$eaLNnEA3oOBGvF6L8LT8B.processes.izk01c9tzR2gH2eQjeAem$$Wwm2XHletUuTBd9lsEWwk.test.unitTests[0].data.v6xTrgnSd6b2U2npiitA7$$_1HM-u4_T7hrt_f935Q8w.schema.fields[3].name",
+    "range" : {
+      "start" : {
+        "line" : 0,
+        "character" : 0
+      },
+      "end" : {
+        "line" : 0,
+        "character" : 0
+      }
+    },
+    "severity" : 1,
+    "message" : "Column out0.phone used within the test Unit Test  is not defined.",
+    "tags" : [ ],
+    "relatedInformation" : [ ]
+  }, {
+    "property" : "$.workflow.processes.uJItOV-5HMlnE96_g7K-o$$PTdOsRmU2SURbe9PgbVuS.processes.1AShx15VLyt7U9EFszDS6$$eaLNnEA3oOBGvF6L8LT8B.processes.izk01c9tzR2gH2eQjeAem$$Wwm2XHletUuTBd9lsEWwk.test.unitTests[0].data.v6xTrgnSd6b2U2npiitA7$$_1HM-u4_T7hrt_f935Q8w.schema.fields[4].name",
+    "range" : {
+      "start" : {
+        "line" : 0,
+        "character" : 0
+      },
+      "end" : {
+        "line" : 0,
+        "character" : 0
+      }
+    },
+    "severity" : 1,
+    "message" : "Column out0.email used within the test Unit Test  is not defined.",
+    "tags" : [ ],
+    "relatedInformation" : [ ]
+  }, {
+    "property" : "$.workflow.processes.uJItOV-5HMlnE96_g7K-o$$PTdOsRmU2SURbe9PgbVuS.processes.1AShx15VLyt7U9EFszDS6$$eaLNnEA3oOBGvF6L8LT8B.processes.izk01c9tzR2gH2eQjeAem$$Wwm2XHletUuTBd9lsEWwk.test.unitTests[0].data.v6xTrgnSd6b2U2npiitA7$$_1HM-u4_T7hrt_f935Q8w.schema.fields[5].name",
+    "range" : {
+      "start" : {
+        "line" : 0,
+        "character" : 0
+      },
+      "end" : {
+        "line" : 0,
+        "character" : 0
+      }
+    },
+    "severity" : 1,
+    "message" : "Column out0.country_code used within the test Unit Test  is not defined.",
+    "tags" : [ ],
+    "relatedInformation" : [ ]
+  }, {
+    "property" : "$.workflow.processes.uJItOV-5HMlnE96_g7K-o$$PTdOsRmU2SURbe9PgbVuS.processes.1AShx15VLyt7U9EFszDS6$$eaLNnEA3oOBGvF6L8LT8B.processes.izk01c9tzR2gH2eQjeAem$$Wwm2XHletUuTBd9lsEWwk.test.unitTests[0].data.v6xTrgnSd6b2U2npiitA7$$_1HM-u4_T7hrt_f935Q8w.schema.fields[6].name",
+    "range" : {
+      "start" : {
+        "line" : 0,
+        "character" : 0
+      },
+      "end" : {
+        "line" : 0,
+        "character" : 0
+      }
+    },
+    "severity" : 1,
+    "message" : "Column out0.account_open_date used within the test Unit Test  is not defined.",
+    "tags" : [ ],
+    "relatedInformation" : [ ]
+  }, {
+    "property" : "$.workflow.processes.uJItOV-5HMlnE96_g7K-o$$PTdOsRmU2SURbe9PgbVuS.processes.1AShx15VLyt7U9EFszDS6$$eaLNnEA3oOBGvF6L8LT8B.processes.izk01c9tzR2gH2eQjeAem$$Wwm2XHletUuTBd9lsEWwk.test.unitTests[0].data.v6xTrgnSd6b2U2npiitA7$$_1HM-u4_T7hrt_f935Q8w.schema.fields[7].name",
+    "range" : {
+      "start" : {
+        "line" : 0,
+        "character" : 0
+      },
+      "end" : {
+        "line" : 0,
+        "character" : 0
+      }
+    },
+    "severity" : 1,
+    "message" : "Column out0.account_flags used within the test Unit Test  is not defined.",
+    "tags" : [ ],
+    "relatedInformation" : [ ]
+  }, {
+    "property" : "$.workflow.processes.uJItOV-5HMlnE96_g7K-o$$PTdOsRmU2SURbe9PgbVuS.processes.1AShx15VLyt7U9EFszDS6$$eaLNnEA3oOBGvF6L8LT8B.processes.izk01c9tzR2gH2eQjeAem$$Wwm2XHletUuTBd9lsEWwk.test.unitTests[0].data.DbD35fuOJ6AQAd-_0ECFV$$mJZdIWujcMJPoj4sTHcsg.schema.fields[0].name",
+    "range" : {
+      "start" : {
+        "line" : 0,
+        "character" : 0
+      },
+      "end" : {
+        "line" : 0,
+        "character" : 0
+      }
+    },
+    "severity" : 1,
+    "message" : "Column out1.customer_id used within the test Unit Test  is not defined.",
+    "tags" : [ ],
+    "relatedInformation" : [ ]
+  }, {
+    "property" : "$.workflow.processes.uJItOV-5HMlnE96_g7K-o$$PTdOsRmU2SURbe9PgbVuS.processes.1AShx15VLyt7U9EFszDS6$$eaLNnEA3oOBGvF6L8LT8B.processes.izk01c9tzR2gH2eQjeAem$$Wwm2XHletUuTBd9lsEWwk.test.unitTests[0].data.DbD35fuOJ6AQAd-_0ECFV$$mJZdIWujcMJPoj4sTHcsg.schema.fields[1].name",
+    "range" : {
+      "start" : {
+        "line" : 0,
+        "character" : 0
+      },
+      "end" : {
+        "line" : 0,
+        "character" : 0
+      }
+    },
+    "severity" : 1,
+    "message" : "Column out1.first_name used within the test Unit Test  is not defined.",
+    "tags" : [ ],
+    "relatedInformation" : [ ]
+  }, {
+    "property" : "$.workflow.processes.uJItOV-5HMlnE96_g7K-o$$PTdOsRmU2SURbe9PgbVuS.processes.1AShx15VLyt7U9EFszDS6$$eaLNnEA3oOBGvF6L8LT8B.processes.izk01c9tzR2gH2eQjeAem$$Wwm2XHletUuTBd9lsEWwk.test.unitTests[0].data.DbD35fuOJ6AQAd-_0ECFV$$mJZdIWujcMJPoj4sTHcsg.schema.fields[2].name",
+    "range" : {
+      "start" : {
+        "line" : 0,
+        "character" : 0
+      },
+      "end" : {
+        "line" : 0,
+        "character" : 0
+      }
+    },
+    "severity" : 1,
+    "message" : "Column out1.last_name used within the test Unit Test  is not defined.",
+    "tags" : [ ],
+    "relatedInformation" : [ ]
+  }, {
+    "property" : "$.workflow.processes.uJItOV-5HMlnE96_g7K-o$$PTdOsRmU2SURbe9PgbVuS.processes.1AShx15VLyt7U9EFszDS6$$eaLNnEA3oOBGvF6L8LT8B.processes.izk01c9tzR2gH2eQjeAem$$Wwm2XHletUuTBd9lsEWwk.test.unitTests[0].data.DbD35fuOJ6AQAd-_0ECFV$$mJZdIWujcMJPoj4sTHcsg.schema.fields[3].name",
+    "range" : {
+      "start" : {
+        "line" : 0,
+        "character" : 0
+      },
+      "end" : {
+        "line" : 0,
+        "character" : 0
+      }
+    },
+    "severity" : 1,
+    "message" : "Column out1.phone used within the test Unit Test  is not defined.",
+    "tags" : [ ],
+    "relatedInformation" : [ ]
+  }, {
+    "property" : "$.workflow.processes.uJItOV-5HMlnE96_g7K-o$$PTdOsRmU2SURbe9PgbVuS.processes.1AShx15VLyt7U9EFszDS6$$eaLNnEA3oOBGvF6L8LT8B.processes.izk01c9tzR2gH2eQjeAem$$Wwm2XHletUuTBd9lsEWwk.test.unitTests[0].data.DbD35fuOJ6AQAd-_0ECFV$$mJZdIWujcMJPoj4sTHcsg.schema.fields[4].name",
+    "range" : {
+      "start" : {
+        "line" : 0,
+        "character" : 0
+      },
+      "end" : {
+        "line" : 0,
+        "character" : 0
+      }
+    },
+    "severity" : 1,
+    "message" : "Column out1.email used within the test Unit Test  is not defined.",
+    "tags" : [ ],
+    "relatedInformation" : [ ]
+  }, {
+    "property" : "$.workflow.processes.uJItOV-5HMlnE96_g7K-o$$PTdOsRmU2SURbe9PgbVuS.processes.1AShx15VLyt7U9EFszDS6$$eaLNnEA3oOBGvF6L8LT8B.processes.izk01c9tzR2gH2eQjeAem$$Wwm2XHletUuTBd9lsEWwk.test.unitTests[0].data.DbD35fuOJ6AQAd-_0ECFV$$mJZdIWujcMJPoj4sTHcsg.schema.fields[5].name",
+    "range" : {
+      "start" : {
+        "line" : 0,
+        "character" : 0
+      },
+      "end" : {
+        "line" : 0,
+        "character" : 0
+      }
+    },
+    "severity" : 1,
+    "message" : "Column out1.country_code used within the test Unit Test  is not defined.",
+    "tags" : [ ],
+    "relatedInformation" : [ ]
+  }, {
+    "property" : "$.workflow.processes.uJItOV-5HMlnE96_g7K-o$$PTdOsRmU2SURbe9PgbVuS.processes.1AShx15VLyt7U9EFszDS6$$eaLNnEA3oOBGvF6L8LT8B.processes.izk01c9tzR2gH2eQjeAem$$Wwm2XHletUuTBd9lsEWwk.test.unitTests[0].data.DbD35fuOJ6AQAd-_0ECFV$$mJZdIWujcMJPoj4sTHcsg.schema.fields[6].name",
+    "range" : {
+      "start" : {
+        "line" : 0,
+        "character" : 0
+      },
+      "end" : {
+        "line" : 0,
+        "character" : 0
+      }
+    },
+    "severity" : 1,
+    "message" : "Column out1.account_open_date used within the test Unit Test  is not defined.",
+    "tags" : [ ],
+    "relatedInformation" : [ ]
+  }, {
+    "property" : "$.workflow.processes.uJItOV-5HMlnE96_g7K-o$$PTdOsRmU2SURbe9PgbVuS.processes.1AShx15VLyt7U9EFszDS6$$eaLNnEA3oOBGvF6L8LT8B.processes.izk01c9tzR2gH2eQjeAem$$Wwm2XHletUuTBd9lsEWwk.test.unitTests[0].data.DbD35fuOJ6AQAd-_0ECFV$$mJZdIWujcMJPoj4sTHcsg.schema.fields[7].name",
+    "range" : {
+      "start" : {
+        "line" : 0,
+        "character" : 0
+      },
+      "end" : {
+        "line" : 0,
+        "character" : 0
+      }
+    },
+    "severity" : 1,
+    "message" : "Column out1.account_flags used within the test Unit Test  is not defined.",
+    "tags" : [ ],
+    "relatedInformation" : [ ]
+  } ]
 }
