@@ -1,0 +1,130 @@
+version: 1
+schema:
+  type: struct
+  fields:
+  - name: C_CUSTOMER_SK
+    type: decimal(38,0)
+    nullable: true
+    metadata:
+      description: ''
+      mappings: []
+      tags: []
+  - name: C_CUSTOMER_ID
+    type: string
+    nullable: true
+    metadata:
+      description: ''
+      mappings: []
+      tags: []
+  - name: C_CURRENT_CDEMO_SK
+    type: decimal(38,0)
+    nullable: true
+    metadata:
+      description: ''
+      mappings: []
+      tags: []
+  - name: C_CURRENT_HDEMO_SK
+    type: decimal(38,0)
+    nullable: true
+    metadata:
+      description: ''
+      mappings: []
+      tags: []
+  - name: C_CURRENT_ADDR_SK
+    type: decimal(38,0)
+    nullable: true
+    metadata:
+      description: ''
+      mappings: []
+      tags: []
+  - name: C_FIRST_SHIPTO_DATE_SK
+    type: decimal(38,0)
+    nullable: true
+    metadata:
+      description: ''
+      mappings: []
+      tags: []
+  - name: C_FIRST_SALES_DATE_SK
+    type: decimal(38,0)
+    nullable: true
+    metadata:
+      description: ''
+      mappings: []
+      tags: []
+  - name: C_SALUTATION
+    type: string
+    nullable: true
+    metadata:
+      description: ''
+      mappings: []
+      tags: []
+  - name: C_FIRST_NAME
+    type: string
+    nullable: true
+    metadata:
+      description: ''
+      mappings: []
+      tags: []
+  - name: C_LAST_NAME
+    type: string
+    nullable: true
+    metadata:
+      description: ''
+      mappings: []
+      tags: []
+  - name: C_PREFERRED_CUST_FLAG
+    type: string
+    nullable: true
+    metadata:
+      description: ''
+      mappings: []
+      tags: []
+  - name: C_BIRTH_DAY
+    type: decimal(38,0)
+    nullable: true
+    metadata:
+      description: ''
+      mappings: []
+      tags: []
+  - name: C_BIRTH_MONTH
+    type: decimal(38,0)
+    nullable: true
+    metadata:
+      description: ''
+      mappings: []
+      tags: []
+  - name: C_BIRTH_YEAR
+    type: decimal(38,0)
+    nullable: true
+    metadata:
+      description: ''
+      mappings: []
+      tags: []
+  - name: C_BIRTH_COUNTRY
+    type: string
+    nullable: true
+    metadata:
+      description: ''
+      mappings: []
+      tags: []
+  - name: C_LOGIN
+    type: string
+    nullable: true
+    metadata:
+      description: ''
+      mappings: []
+      tags: []
+  - name: C_EMAIL_ADDRESS
+    type: string
+    nullable: true
+    metadata:
+      description: ''
+      mappings: []
+      tags: []
+  - name: C_LAST_REVIEW_DATE
+    type: string
+    nullable: true
+    metadata:
+      description: ''
+      mappings: []
+      tags: []
