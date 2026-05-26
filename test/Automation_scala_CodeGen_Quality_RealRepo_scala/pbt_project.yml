@@ -45,6 +45,19 @@ pipelines:
     subgraphs:
     - subgraphs/scalaSG
     dependencies: {}
+  pipelines/dummy1779816858422:
+    name: dummy1779816858422
+    description: automation workflow
+    author: abhisheks+e2etests@prophecy.io
+    mode: batch
+    artefactID: ''
+    language: scala
+    createdAt: '2026-05-26 17:34:31'
+    datasets:
+      inputs: []
+      outputs: []
+    subgraphs: []
+    dependencies: {}
 datasets:
   datasets/dataset_cust_in:
     name: dataset_cust_in
@@ -222,43 +235,42 @@ sqlUnreferencedSources: {}
 sqlPipeline: null
 dependencies:
 - type: plibMaven
-  modifiedAt: '2024-12-21T12:22:40.637Z'
+  modifiedAt: '2026-05-26T17:28:28.387Z'
   name: ProphecyLibsScala
-  version: 8.6.0
-  id: '572432883'
+  version: 9.3.1-SNAPSHOT
   createdAt: '2024-04-05T06:25:47.525233Z'
   enabled: true
   entity: Project
-  __path: '[3]'
   description: Default dependency for Prophecy Libs
   scope: Project
-  exclusions: []
   editable: true
+  exclusions: []
 projectDependencies:
-  '2':
-    projectUID: 2
+  '40':
+    projectUID: 40
     projectName: ProphecyWarehouseScala
-    repositoryPath: gitUri=http://gitserver:3000/QDtqmciq_team_2/QDtqmciq_project_2.git&subPath=
-    version: 0.0.5
+    repositoryPath: gitUri=http://gitserver:3000/9gt3CHHz_team_9/pJIIcs5r_project_40.git&subPath=
+    version: 0.0.7
     isDefault: true
     author: null
-    createdAt: '2024-12-21 12:22:35'
-  '1':
-    projectUID: 1
+    createdAt: '2026-05-26 17:30:40'
+  '39':
+    projectUID: 39
     projectName: ProphecySparkBasicsScala
-    repositoryPath: gitUri=http://gitserver:3000/QDtqmciq_team_2/QDtqmciq_project_1.git&subPath=
-    version: 0.2.6
+    repositoryPath: gitUri=http://gitserver:3000/9gt3CHHz_team_9/pJIIcs5r_project_39.git&subPath=
+    version: 0.2.6.7
     isDefault: true
     author: null
-    createdAt: '2024-12-21 12:08:13'
-  '8':
-    projectUID: 8
+    createdAt: '2026-05-26 17:30:22'
+  '10039':
+    projectUID: 10039
     projectName: ProphecySparkAbinitioScala
-    repositoryPath: gitUri=http://gitserver:3000/QDtqmciq_team_2/QDtqmciq_project_8.git&subPath=
-    version: 0.0.21
+    repositoryPath: gitUri=http://gitserver:3000/9gt3CHHz_team_9/a4NwFTJd_project_10039.git&subPath=
+    version: 0.0.26
     isDefault: false
     author: null
-    createdAt: '2024-12-21 12:08:14'
+    createdAt: '2026-05-26 17:31:20'
 flags:
   shouldAddDefaultDependenciesIfAbsent: true
 pipelineConfigurations: {}
+projectConfigurations: {}
