@@ -1,0 +1,26 @@
+{
+  "unitTests" : [ {
+    "data" : {
+      "5Hf1VxO41nHDxffegbOMT$$r5uA5ANS7PBBGt8o-TsUZ" : {
+        "values" : [ ],
+        "schema" : {
+          "type" : "struct",
+          "fields" : [ ]
+        },
+        "predicates" : [ ]
+      },
+      "Ctj4YCWbKUDgYymjR2DMK$$AjxEXv4W8ARvNTdGzZLo-" : {
+        "values" : [ ],
+        "schema" : {
+          "type" : "struct",
+          "fields" : [ ]
+        },
+        "predicates" : [ ]
+      }
+    },
+    "name" : "Unit Test ",
+    "testType" : "outputRow",
+    "language" : "scala"
+  } ],
+  "language" : "scala"
+}
