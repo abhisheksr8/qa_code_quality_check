@@ -1,0 +1,1 @@
+{"initCode":"var int_value = 10","code":"udf((value: Int) => value * int_value)"}
