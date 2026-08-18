@@ -1,0 +1,1 @@
+{"initCode":"import org.apache.spark.sql.functions._","code":"udf(() => Math.random())"}
