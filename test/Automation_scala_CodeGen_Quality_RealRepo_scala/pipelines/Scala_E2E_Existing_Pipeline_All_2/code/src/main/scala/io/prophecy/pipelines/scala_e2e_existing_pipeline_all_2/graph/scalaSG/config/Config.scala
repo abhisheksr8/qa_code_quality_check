@@ -1,0 +1,21 @@
+package io.prophecy.pipelines.scala_e2e_existing_pipeline_all_2.graph.scalaSG.config
+
+import io.prophecy.libs._
+import pureconfig._
+import pureconfig.generic.ProductHint
+import org.apache.spark.sql.SparkSession
+import io.prophecy.pipelines.scala_e2e_existing_pipeline_all_2.graph.scalaSG.Subgraph_2.config.{
+  Config => Subgraph_2_Config
+}
+
+object Config {
+
+  implicit val confHint: ProductHint[Config] =
+    ProductHint[Config](ConfigFieldMapping(CamelCase, CamelCase))
+
+}
+
+case class Config(Subgraph_2: Subgraph_2_Config = Subgraph_2_Config())
+    extends ConfigBase
+
+case class Context(spark: SparkSession, config: Config)

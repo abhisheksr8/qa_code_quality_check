@@ -1,0 +1,264 @@
+name: Scala_E2E_Existing
+description: ''
+version: 0.0.1
+author: abhisheks@prophecy.io
+language: scala
+buildSystem: ''
+buildSystemDetails:
+  artefactID: scalae2eexisting
+  parentArtefactID: abhisheksprophecyioteam
+  buildSystem: maven
+  author: null
+  createdAt: '2023-10-01 06:36:00'
+pipelines:
+  pipelines/Scala_E2E_Existing_Pipeline_All_1:
+    name: Scala_E2E_Existing_Pipeline_All_1
+    description: Scala_E2E_Existing_Pipeline_All_1
+    author: abhisheks@prophecy.io
+    mode: batch
+    artefactID: ''
+    language: scala
+    createdAt: '2023-10-01 06:36:44'
+    datasets:
+      inputs:
+      - datasets/dataset_cust_in
+      - datasets/qa_database_customer
+      - datasets/src_parquet_all_type_no_partition
+      outputs:
+      - datasets/dest_scala_1
+    subgraphs:
+    - subgraphs/scalaSG
+    dependencies: {}
+  pipelines/Scala_E2E_Existing_Pipeline_All_2:
+    name: Scala_E2E_Existing_Pipeline_All_2
+    description: Scala_E2E_Existing_Pipeline_All_2
+    author: abhisheks@prophecy.io
+    mode: batch
+    artefactID: ''
+    language: scala
+    createdAt: '2023-10-03 05:01:37'
+    datasets:
+      inputs:
+      - datasets/dataset_cust_in
+      - datasets/qa_database_customer
+      outputs: []
+    subgraphs:
+    - subgraphs/scalaSG
+    dependencies: {}
+datasets:
+  datasets/dataset_cust_in:
+    name: dataset_cust_in
+    description: ''
+    author: abhisheks@prophecy.io
+    createdAt: '2023-10-01 06:37:40'
+    mode: batch
+    physicalDatasets:
+      dev:
+        fabricId: 39
+        datasetType: File
+        description: ''
+        author: abhisheks@prophecy.io
+        createdAt: '2023-10-01 06:37:40'
+  datasets/dest_scala_1:
+    name: dest_scala_1
+    description: ''
+    author: abhisheks@prophecy.io
+    createdAt: '2023-10-01 06:46:58'
+    mode: batch
+    physicalDatasets:
+      dev:
+        fabricId: 39
+        datasetType: File
+        description: ''
+        author: abhisheks@prophecy.io
+        createdAt: '2023-10-01 06:46:58'
+  datasets/qa_database_customer:
+    name: qa_database_customer
+    description: ''
+    author: abhisheks@prophecy.io
+    createdAt: '2023-10-01 07:02:12'
+    mode: batch
+    physicalDatasets:
+      dev:
+        fabricId: 39
+        datasetType: Database
+        description: ''
+        author: abhisheks@prophecy.io
+        createdAt: '2023-10-01 07:02:12'
+  datasets/src_parquet_all_type_no_partition:
+    name: src_parquet_all_type_no_partition
+    description: ''
+    author: abhisheks+e2etests@prophecy.io
+    createdAt: '2023-11-24 03:49:50'
+    mode: batch
+    physicalDatasets:
+      dev_bigquery:
+        fabricId: 3
+        datasetType: File
+        description: ''
+        author: abhisheks+e2etests@prophecy.io
+        createdAt: '2023-11-24 03:49:50'
+templates:
+  templates/maven:
+    name: maven
+    description: null
+    author: abhisheks@prophecy.io
+    version: v1
+    mode: batch
+    language: scala
+    createdAt: '2023-10-01 06:51:59'
+    datasets:
+      inputs: []
+      outputs: []
+    dependencies: {}
+jobs:
+  jobs/Scala_E2E_Existing_Pipeline_Job_1:
+    name: Scala_E2E_Existing_Pipeline_Job_1
+    description: ''
+    fabricUID: 1
+    scheduler:
+      Databricks: {}
+    cloudProvider: null
+    jobSize: small
+    scheduleCron: 0 0 0 1 1 ? 2090
+    timeout: null
+    alerting:
+      emails: ''
+      onStart: false
+      onSuccess: false
+      onFailure: false
+    pipelines:
+    - pipelines/Scala_E2E_Existing_Pipeline_All_1
+    - pipelines/Scala_E2E_Existing_Pipeline_All_2
+    jobClusterMode:
+      clusterMode:
+        Single: {}
+      clusterId: null
+    enabled: true
+    createdAt: '2023-10-01 06:56:42'
+    author: abhisheks@prophecy.io
+    models: []
+    sqlProjects: []
+  jobs/Scala_E2E_Existing_Pipeline_Job_2:
+    name: Scala_E2E_Existing_Pipeline_Job_2
+    description: ''
+    fabricUID: 1
+    scheduler:
+      Databricks: {}
+    cloudProvider: null
+    jobSize: small
+    scheduleCron: 0 0 0 1 1 ? 2090
+    timeout: null
+    alerting:
+      emails: ''
+      onStart: false
+      onSuccess: false
+      onFailure: false
+    pipelines:
+    - pipelines/Scala_E2E_Existing_Pipeline_All_1
+    - pipelines/Scala_E2E_Existing_Pipeline_All_2
+    jobClusterMode:
+      clusterMode:
+        Single: {}
+      clusterId: null
+    enabled: true
+    createdAt: '2023-10-03 05:38:54'
+    author: abhisheks@prophecy.io
+    models: []
+    sqlProjects: []
+gemContainer:
+  languageVersion: 2.12.15
+  gemLibsVersion: 1.0.4
+  gems: {}
+  dependencies: null
+functions:
+  author: null
+  createdAt: '2023-10-01 06:36:00'
+  udfs:
+    udfs/udf_multiply:
+      name: udf_multiply
+      description: ''
+      tags: []
+      inputs: []
+      outputs: []
+      author: abhisheks@prophecy.io
+      createdAt: '2022-12-15 18:04:50'
+    udfs/udf_string_length:
+      name: udf_string_length
+      description: ''
+      tags: []
+      inputs: []
+      outputs: []
+      author: abhisheks@prophecy.io
+      createdAt: '2022-12-15 18:04:50'
+    udfs/udf_random_number:
+      name: udf_random_number
+      description: ''
+      tags: []
+      inputs: []
+      outputs: []
+      author: abhisheks@prophecy.io
+      createdAt: '2022-12-15 18:04:50'
+  udafs: {}
+  expressions: {}
+  airflowFunctions: {}
+  businessRules: {}
+subgraphs:
+  subgraphs/scalaSG:
+    name: scalaSG
+    description: ''
+    author: abhisheks@prophecy.io
+    language: scala
+    artefactID: ''
+    mode: batch
+    createdAt: '2023-10-01 06:44:03'
+sqlModels: {}
+sqlSnapshots: {}
+sqlTests: {}
+sqlMacros: {}
+sqlSeeds: {}
+sqlSources: {}
+sqlUnreferencedSources: {}
+sqlPipeline: null
+dependencies:
+- type: plibMaven
+  modifiedAt: '2024-12-21T12:22:40.637Z'
+  name: ProphecyLibsScala
+  version: 8.6.0
+  id: '572432883'
+  createdAt: '2024-04-05T06:25:47.525233Z'
+  enabled: true
+  entity: Project
+  __path: '[3]'
+  description: Default dependency for Prophecy Libs
+  scope: Project
+  exclusions: []
+  editable: true
+projectDependencies:
+  '2':
+    projectUID: 2
+    projectName: ProphecyWarehouseScala
+    repositoryPath: gitUri=http://gitserver:3000/QDtqmciq_team_2/QDtqmciq_project_2.git&subPath=
+    version: 0.0.5
+    isDefault: true
+    author: null
+    createdAt: '2024-12-21 12:22:35'
+  '1':
+    projectUID: 1
+    projectName: ProphecySparkBasicsScala
+    repositoryPath: gitUri=http://gitserver:3000/QDtqmciq_team_2/QDtqmciq_project_1.git&subPath=
+    version: 0.2.6
+    isDefault: true
+    author: null
+    createdAt: '2024-12-21 12:08:13'
+  '8':
+    projectUID: 8
+    projectName: ProphecySparkAbinitioScala
+    repositoryPath: gitUri=http://gitserver:3000/QDtqmciq_team_2/QDtqmciq_project_8.git&subPath=
+    version: 0.0.21
+    isDefault: false
+    author: null
+    createdAt: '2024-12-21 12:08:14'
+flags:
+  shouldAddDefaultDependenciesIfAbsent: true
+pipelineConfigurations: {}
